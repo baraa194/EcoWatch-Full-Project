@@ -1,0 +1,876 @@
+[18:42:54 INF] HTTP OPTIONS /api/Community/posts responded 204 in 4.3367 ms
+[18:42:54 WRN] Failed to determine the https port for redirect.
+[18:42:55 ERR] Failed executing DbCommand (109ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Int32), @p5='?' (DbType = DateTime2), @p6='?' (DbType = DateTime2), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (DbType = Boolean), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Int32), @p13='?' (Size = 4000), @p14='?' (DbType = Int32), @p15='?' (Size = 4000), @p16='?' (Size = 450), @p17='?' (DbType = DateTime2), @p18='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CommunityPosts] ([AfterImageUrl], [BeforeImageUrl], [Category], [ClaimedAt], [ClaimedByVolunteerId], [CompletedAt], [CreatedAt], [Description], [ImageUrl], [IsVerified], [Location], [Notes], [PointsReward], [RejectionReason], [Status], [Title], [UserId], [VerifiedAt], [VerifiedByUserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18);
+[18:42:55 ERR] An exception occurred in the database while saving changes for context type 'EcoWatchSystem.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'RejectionReason'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:2c8d21b7-8248-47e1-85c4-19040157bf8a
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'RejectionReason'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:2c8d21b7-8248-47e1-85c4-19040157bf8a
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[18:42:56 ERR] HTTP POST /api/Community/posts responded 500 in 1492.3156 ms
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'RejectionReason'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:2c8d21b7-8248-47e1-85c4-19040157bf8a
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at EcoWatchSystem.Services.CommunityService.CreatePostAsync(CreatePostDto dto, String userId) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Services\CommunityService.cs:line 76
+   at EcoWatchSystem.Controllers.CommunityController.CreatePost(CreatePostDto dto) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Controllers\CommunityController.cs:line 29
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[18:42:56 ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'RejectionReason'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:2c8d21b7-8248-47e1-85c4-19040157bf8a
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at EcoWatchSystem.Services.CommunityService.CreatePostAsync(CreatePostDto dto, String userId) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Services\CommunityService.cs:line 76
+   at EcoWatchSystem.Controllers.CommunityController.CreatePost(CreatePostDto dto) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Controllers\CommunityController.cs:line 29
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[18:47:23 ERR] Failed executing DbCommand (311ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Authorities] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [Email] nvarchar(max) NOT NULL,
+    [Region] nvarchar(max) NOT NULL,
+    [Category] nvarchar(max) NOT NULL,
+    [IsActive] bit NOT NULL,
+    CONSTRAINT [PK_Authorities] PRIMARY KEY ([Id])
+);
+[18:48:42 INF] HTTP OPTIONS /api/Community/posts responded 204 in 4.2098 ms
+[18:48:42 WRN] Failed to determine the https port for redirect.
+[18:48:43 ERR] Failed executing DbCommand (120ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Int32), @p5='?' (DbType = DateTime2), @p6='?' (DbType = DateTime2), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (DbType = Boolean), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Int32), @p13='?' (Size = 4000), @p14='?' (DbType = Int32), @p15='?' (Size = 4000), @p16='?' (Size = 450), @p17='?' (DbType = DateTime2), @p18='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CommunityPosts] ([AfterImageUrl], [BeforeImageUrl], [Category], [ClaimedAt], [ClaimedByVolunteerId], [CompletedAt], [CreatedAt], [Description], [ImageUrl], [IsVerified], [Location], [Notes], [PointsReward], [RejectionReason], [Status], [Title], [UserId], [VerifiedAt], [VerifiedByUserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18);
+[18:48:43 ERR] An exception occurred in the database while saving changes for context type 'EcoWatchSystem.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'RejectionReason'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:2fb0a08e-e308-4e83-abee-963b992fafba
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'RejectionReason'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:2fb0a08e-e308-4e83-abee-963b992fafba
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[18:48:44 ERR] HTTP POST /api/Community/posts responded 500 in 1896.8975 ms
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'RejectionReason'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:2fb0a08e-e308-4e83-abee-963b992fafba
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at EcoWatchSystem.Services.CommunityService.CreatePostAsync(CreatePostDto dto, String userId) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Services\CommunityService.cs:line 76
+   at EcoWatchSystem.Controllers.CommunityController.CreatePost(CreatePostDto dto) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Controllers\CommunityController.cs:line 29
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[18:48:44 ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'RejectionReason'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:2fb0a08e-e308-4e83-abee-963b992fafba
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at EcoWatchSystem.Services.CommunityService.CreatePostAsync(CreatePostDto dto, String userId) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Services\CommunityService.cs:line 76
+   at EcoWatchSystem.Controllers.CommunityController.CreatePost(CreatePostDto dto) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Controllers\CommunityController.cs:line 29
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[18:53:51 INF] HTTP OPTIONS /api/Community/posts responded 204 in 17.7798 ms
+[18:53:51 INF] HTTP POST /api/Community/posts responded 401 in 80.9360 ms
+[18:53:56 INF] HTTP POST /api/Community/posts responded 401 in 14.8427 ms
+[18:54:17 INF] HTTP OPTIONS /api/Community/posts responded 204 in 0.2044 ms
+[18:54:17 INF] HTTP POST /api/Community/posts responded 401 in 7.7002 ms
+[18:56:13 INF] HTTP OPTIONS /api/Community/posts responded 204 in 7.3772 ms
+[18:56:13 WRN] Failed to determine the https port for redirect.
+[18:56:13 INF] HTTP POST /api/Community/posts responded 401 in 692.2945 ms
+[19:03:02 INF] HTTP OPTIONS /api/Community/posts responded 204 in 68.0660 ms
+[19:03:03 INF] HTTP POST /api/Community/posts responded 401 in 503.7391 ms
+[19:03:20 INF] HTTP GET /api/Community/posts responded 200 in 8267.3428 ms
+[19:03:20 INF] HTTP OPTIONS /api/Volunteers/me responded 204 in 0.1955 ms
+[19:03:20 INF] HTTP OPTIONS /api/Community/my-posts responded 204 in 0.0582 ms
+[19:03:20 INF] HTTP GET /api/Volunteers/me responded 404 in 12.3139 ms
+[19:03:20 INF] HTTP GET /api/Community/my-posts responded 401 in 31.9908 ms
+[19:03:20 INF] HTTP GET /uploads/posts/41d90d4c-b09d-4b3f-8d20-316110275ab0.webp responded 404 in 513.3694 ms
+[19:03:20 INF] HTTP GET /uploads/posts/50ed99d6-d830-4d7b-84a8-1ac30f39c659.webp responded 404 in 513.0060 ms
+[19:03:20 INF] HTTP GET /uploads/posts/950c6715-6002-4f49-af7d-5883c7aad3c7.webp responded 404 in 511.7251 ms
+[19:09:14 INF] HTTP GET /api/Community/posts responded 200 in 2102.3454 ms
+[19:09:14 INF] HTTP OPTIONS /api/Community/my-posts responded 204 in 4.1752 ms
+[19:09:14 INF] HTTP OPTIONS /api/Volunteers/me responded 204 in 0.0504 ms
+[19:09:14 INF] HTTP GET /api/Volunteers/me responded 404 in 43.9252 ms
+[19:09:14 INF] HTTP GET /api/Community/my-posts responded 401 in 56.3870 ms
+[19:09:14 INF] HTTP GET /uploads/posts/50ed99d6-d830-4d7b-84a8-1ac30f39c659.webp responded 404 in 55.0380 ms
+[19:09:14 INF] HTTP GET /uploads/posts/950c6715-6002-4f49-af7d-5883c7aad3c7.webp responded 404 in 54.6664 ms
+[19:09:14 INF] HTTP GET /uploads/posts/41d90d4c-b09d-4b3f-8d20-316110275ab0.webp responded 404 in 55.0168 ms
+[19:09:27 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 1.1502 ms
+[19:09:27 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 1.1499 ms
+[19:09:27 INF] HTTP POST /Notification/negotiate responded 200 in 413.5977 ms
+[19:09:27 INF] HTTP POST /Notification/negotiate responded 200 in 414.2450 ms
+[19:09:42 INF] HTTP GET /api/Community/posts responded 200 in 46.0567 ms
+[19:09:42 INF] HTTP OPTIONS /api/Community/my-posts responded 204 in 1.2166 ms
+[19:09:42 INF] HTTP OPTIONS /api/Volunteers/me responded 204 in 0.0462 ms
+[19:09:42 INF] HTTP GET /api/Community/posts responded 200 in 23.2495 ms
+[19:09:42 INF] HTTP GET /api/Community/my-posts responded 401 in 4.3059 ms
+[19:09:42 INF] HTTP GET /api/Volunteers/me responded 404 in 5.1295 ms
+[19:09:42 INF] HTTP GET /api/Volunteers/me responded 404 in 1.6694 ms
+[19:09:42 INF] HTTP GET /api/Community/my-posts responded 401 in 7.5028 ms
+[19:09:42 INF] HTTP GET /uploads/posts/950c6715-6002-4f49-af7d-5883c7aad3c7.webp responded 404 in 18.8936 ms
+[19:09:42 INF] HTTP GET /uploads/posts/41d90d4c-b09d-4b3f-8d20-316110275ab0.webp responded 404 in 22.0674 ms
+[19:09:42 INF] HTTP GET /uploads/posts/50ed99d6-d830-4d7b-84a8-1ac30f39c659.webp responded 404 in 21.9935 ms
+[19:21:55 INF] HTTP GET /Notification responded 101 in 747603.0531 ms
+[19:21:59 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 43.8721 ms
+[19:21:59 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 38.2552 ms
+[19:21:59 INF] HTTP POST /Notification/negotiate responded 200 in 199.5332 ms
+[19:21:59 INF] HTTP POST /Notification/negotiate responded 200 in 199.5163 ms
+[19:22:06 INF] HTTP GET /api/Community/posts responded 200 in 1166.1991 ms
+[19:22:06 INF] HTTP OPTIONS /api/Community/my-posts responded 204 in 0.4789 ms
+[19:22:06 INF] HTTP OPTIONS /api/Volunteers/me responded 204 in 0.1665 ms
+[19:22:06 INF] HTTP GET /api/Community/my-posts responded 401 in 3.7558 ms
+[19:22:06 INF] HTTP GET /api/Volunteers/me responded 404 in 5.6609 ms
+[19:22:06 INF] HTTP GET /api/Community/posts responded 200 in 47.1449 ms
+[19:22:06 INF] HTTP GET /uploads/posts/41d90d4c-b09d-4b3f-8d20-316110275ab0.webp responded 404 in 17.9405 ms
+[19:22:06 INF] HTTP GET /uploads/posts/950c6715-6002-4f49-af7d-5883c7aad3c7.webp responded 404 in 13.9373 ms
+[19:22:06 INF] HTTP GET /uploads/posts/50ed99d6-d830-4d7b-84a8-1ac30f39c659.webp responded 404 in 28.2239 ms
+[19:22:06 INF] HTTP GET /api/Community/my-posts responded 401 in 22.1807 ms
+[19:22:06 INF] HTTP GET /api/Volunteers/me responded 404 in 21.1964 ms
+[19:25:36 INF] HTTP GET /api/Community/posts responded 200 in 300.0482 ms
+[19:25:36 INF] HTTP OPTIONS /api/Community/my-posts responded 204 in 4.4856 ms
+[19:25:36 INF] HTTP GET /api/Community/my-posts responded 401 in 33.0113 ms
+[19:25:36 INF] HTTP OPTIONS /api/Volunteers/me responded 204 in 0.4348 ms
+[19:25:36 INF] HTTP GET /api/Volunteers/me responded 404 in 3.0608 ms
+[19:25:36 INF] HTTP GET /uploads/posts/950c6715-6002-4f49-af7d-5883c7aad3c7.webp responded 404 in 20.3155 ms
+[19:25:36 INF] HTTP GET /uploads/posts/41d90d4c-b09d-4b3f-8d20-316110275ab0.webp responded 404 in 28.7155 ms
+[19:25:36 INF] HTTP GET /uploads/posts/50ed99d6-d830-4d7b-84a8-1ac30f39c659.webp responded 404 in 30.1596 ms
+[19:25:43 INF] HTTP GET /Notification responded 101 in 223352.5075 ms
+[19:25:44 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 1.2908 ms
+[19:25:44 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 1.2908 ms
+[19:25:44 INF] HTTP POST /Notification/negotiate responded 200 in 8.8285 ms
+[19:25:44 INF] HTTP POST /Notification/negotiate responded 200 in 10.6459 ms
+[19:25:50 INF] HTTP GET /api/Community/posts responded 200 in 29.4450 ms
+[19:25:50 INF] HTTP OPTIONS /api/Community/my-posts responded 204 in 0.1164 ms
+[19:25:50 INF] HTTP GET /api/Community/posts responded 200 in 9.3793 ms
+[19:25:50 INF] HTTP GET /api/Community/my-posts responded 401 in 1.4498 ms
+[19:25:50 INF] HTTP OPTIONS /api/Volunteers/me responded 204 in 0.0320 ms
+[19:25:50 INF] HTTP GET /api/Community/my-posts responded 401 in 8.4895 ms
+[19:25:50 INF] HTTP OPTIONS /api/Volunteers/me responded 204 in 0.3127 ms
+[19:25:50 INF] HTTP GET /api/Volunteers/me responded 404 in 2.0925 ms
+[19:25:50 INF] HTTP GET /api/Volunteers/me responded 404 in 0.8901 ms
+[19:25:50 INF] HTTP GET /uploads/posts/41d90d4c-b09d-4b3f-8d20-316110275ab0.webp responded 404 in 0.7980 ms
+[19:25:50 INF] HTTP GET /uploads/posts/50ed99d6-d830-4d7b-84a8-1ac30f39c659.webp responded 404 in 2.5113 ms
+[19:25:50 INF] HTTP GET /uploads/posts/950c6715-6002-4f49-af7d-5883c7aad3c7.webp responded 404 in 2.7716 ms
+[19:25:59 INF] HTTP GET /uploads/posts/50ed99d6-d830-4d7b-84a8-1ac30f39c659.webp responded 404 in 0.2927 ms
+[19:25:59 INF] HTTP GET /uploads/posts/41d90d4c-b09d-4b3f-8d20-316110275ab0.webp responded 404 in 0.7727 ms
+[19:25:59 INF] HTTP GET /uploads/posts/950c6715-6002-4f49-af7d-5883c7aad3c7.webp responded 404 in 0.4375 ms
+[19:26:08 INF] HTTP GET /uploads/posts/41d90d4c-b09d-4b3f-8d20-316110275ab0.webp responded 404 in 0.3957 ms
+[19:26:08 INF] HTTP GET /uploads/posts/950c6715-6002-4f49-af7d-5883c7aad3c7.webp responded 404 in 0.6103 ms
+[19:26:08 INF] HTTP GET /uploads/posts/50ed99d6-d830-4d7b-84a8-1ac30f39c659.webp responded 404 in 0.8565 ms
+[19:26:35 INF] HTTP GET /api/Community/posts responded 200 in 36.3674 ms
+[19:26:35 INF] HTTP OPTIONS /api/Community/my-posts responded 204 in 0.1486 ms
+[19:26:35 INF] HTTP GET /api/Community/my-posts responded 401 in 2.6452 ms
+[19:26:35 INF] HTTP GET /api/Community/posts responded 200 in 19.5509 ms
+[19:26:35 INF] HTTP OPTIONS /api/Volunteers/me responded 204 in 2.9975 ms
+[19:26:35 INF] HTTP GET /api/Volunteers/me responded 404 in 1.4971 ms
+[19:26:35 INF] HTTP GET /api/Community/my-posts responded 401 in 2.4533 ms
+[19:26:35 INF] HTTP GET /api/Volunteers/me responded 404 in 2.1477 ms
+[19:26:35 INF] HTTP GET /uploads/posts/41d90d4c-b09d-4b3f-8d20-316110275ab0.webp responded 404 in 0.3399 ms
+[19:26:35 INF] HTTP GET /uploads/posts/50ed99d6-d830-4d7b-84a8-1ac30f39c659.webp responded 404 in 0.3146 ms
+[19:26:35 INF] HTTP GET /uploads/posts/950c6715-6002-4f49-af7d-5883c7aad3c7.webp responded 404 in 0.3397 ms
+[19:26:37 INF] HTTP GET /Notification responded 101 in 52924.5218 ms
+[19:26:37 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.1518 ms
+[19:26:37 INF] HTTP POST /Notification/negotiate responded 200 in 27.6618 ms
+[19:26:56 INF] HTTP OPTIONS /api/Auth/login responded 204 in 0.1701 ms
+[19:27:00 INF] HTTP POST /api/Auth/login responded 200 in 3807.8580 ms
+[19:27:00 INF] HTTP GET /Notification responded 101 in 22807.3135 ms
+[19:27:00 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0482 ms
+[19:27:00 INF] HTTP POST /Notification/negotiate responded 200 in 27.2970 ms
+[19:27:12 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.0400 ms
+[19:27:12 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.0369 ms
+[19:27:12 INF] HTTP GET /api/AdminRecycling/all responded 200 in 98.8606 ms
+[19:27:12 INF] HTTP GET /api/AdminRecycling/all responded 200 in 12.4271 ms
+[19:28:26 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.0738 ms
+[19:28:26 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.0975 ms
+[19:28:26 INF] HTTP GET /api/AdminRecycling/all responded 200 in 19.1987 ms
+[19:28:26 INF] HTTP GET /api/AdminRecycling/all responded 200 in 6.7789 ms
+[19:29:10 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.1765 ms
+[19:29:10 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.0733 ms
+[19:29:10 INF] HTTP GET /api/AdminRecycling/all responded 200 in 11.2918 ms
+[19:29:10 INF] HTTP GET /api/AdminRecycling/all responded 200 in 14.4293 ms
+[19:29:17 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.0702 ms
+[19:29:17 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.1835 ms
+[19:29:17 INF] HTTP GET /api/AdminRecycling/all responded 200 in 6.7630 ms
+[19:29:17 INF] HTTP GET /api/AdminRecycling/all responded 200 in 4.5507 ms
+[19:40:52 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 1.1237 ms
+[19:40:52 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 1.1292 ms
+[19:40:52 INF] HTTP POST /Notification/negotiate responded 200 in 7.7685 ms
+[19:40:52 INF] HTTP POST /Notification/negotiate responded 200 in 1.8464 ms
+[20:03:01 INF] HTTP GET /Notification responded 101 in 1328827.6504 ms
+[20:50:04 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 5.8480 ms
+[20:50:04 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 2.8733 ms
+[20:50:04 INF] HTTP POST /Notification/negotiate responded 200 in 98.9289 ms
+[20:50:04 INF] HTTP POST /Notification/negotiate responded 200 in 100.9459 ms
+[20:50:23 INF] HTTP OPTIONS /api/Auth/login responded 204 in 0.0877 ms
+[20:50:24 INF] HTTP POST /api/Auth/login responded 200 in 1317.5208 ms
+[20:50:24 INF] HTTP GET /Notification responded 101 in 20331.0040 ms
+[20:50:24 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0406 ms
+[20:50:24 INF] HTTP POST /Notification/negotiate responded 200 in 10.0349 ms
+[20:51:52 INF] HTTP OPTIONS /api/Detection/detectionResult responded 204 in 4.1354 ms
+[20:51:57 INF] HTTP POST /api/Detection/detectionResult responded 200 in 5496.4592 ms
+[20:52:01 INF] HTTP OPTIONS /api/RecyclingTransaction/add responded 204 in 0.1302 ms
+[20:52:02 INF] HTTP POST /api/RecyclingTransaction/add responded 200 in 655.0986 ms
+[20:53:03 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0833 ms
+[20:53:03 INF] HTTP GET /Notification responded 101 in 159007.4756 ms
+[20:53:03 INF] HTTP POST /Notification/negotiate responded 200 in 6.9385 ms
+[20:53:16 INF] HTTP OPTIONS /api/Auth/login responded 204 in 0.0773 ms
+[20:53:16 INF] HTTP POST /api/Auth/login responded 200 in 247.2643 ms
+[20:53:16 INF] HTTP GET /Notification responded 101 in 12763.0509 ms
+[20:53:16 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0494 ms
+[20:53:16 INF] HTTP POST /Notification/negotiate responded 200 in 1.2584 ms
+[20:53:35 INF] HTTP GET /Notification responded 101 in 18526.2520 ms
+[20:53:35 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0880 ms
+[20:53:35 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.5807 ms
+[20:53:35 INF] HTTP POST /Notification/negotiate responded 200 in 2.9019 ms
+[20:53:35 INF] HTTP POST /Notification/negotiate responded 200 in 0.6388 ms
+[20:53:41 INF] HTTP GET /Notification responded 101 in 5746.9287 ms
+[20:54:17 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0648 ms
+[20:54:17 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0157 ms
+[20:54:17 INF] HTTP POST /Notification/negotiate responded 200 in 1.0749 ms
+[20:54:17 INF] HTTP POST /Notification/negotiate responded 200 in 3.8189 ms
+[20:54:45 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.0831 ms
+[20:54:45 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.5899 ms
+[20:54:45 INF] HTTP GET /api/AdminRecycling/all responded 200 in 50.6942 ms
+[20:54:45 INF] HTTP GET /api/AdminRecycling/all responded 200 in 7.8110 ms
+[20:55:07 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.0510 ms
+[20:55:07 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.0129 ms
+[20:55:07 INF] HTTP GET /api/AdminRecycling/all responded 200 in 7.9357 ms
+[20:55:07 INF] HTTP GET /api/AdminRecycling/all responded 200 in 13.1760 ms
+[20:55:17 INF] HTTP OPTIONS /api/AdminRecycling/changeStatus/1 responded 204 in 0.0374 ms
+[20:55:18 ERR] HTTP POST /api/AdminRecycling/changeStatus/1 responded 500 in 401.8796 ms
+System.Exception: Transaction not found
+   at EcoWatchSystem.Services.RecyclingTransactionService.ChangeRecyclingStatusByAdmin(Int32 transactionId) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Services\RecyclingTransactionService.cs:line 139
+   at EcoWatchSystem.Controllers.AdminRecyclingController.ChangeStatus(Int32 transactionid) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Controllers\AdminRecyclingController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[20:55:18 ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Transaction not found
+   at EcoWatchSystem.Services.RecyclingTransactionService.ChangeRecyclingStatusByAdmin(Int32 transactionId) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Services\RecyclingTransactionService.cs:line 139
+   at EcoWatchSystem.Controllers.AdminRecyclingController.ChangeStatus(Int32 transactionid) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Controllers\AdminRecyclingController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[20:55:24 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.0379 ms
+[20:55:24 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.0153 ms
+[20:55:25 INF] HTTP GET /api/AdminRecycling/all responded 200 in 5.2947 ms
+[20:55:25 INF] HTTP GET /api/AdminRecycling/all responded 200 in 6.5017 ms
+[20:55:39 INF] HTTP GET /Notification responded 101 in 82039.8797 ms
+[20:55:39 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.3599 ms
+[20:55:39 INF] HTTP POST /Notification/negotiate responded 200 in 0.5997 ms
+[20:55:54 INF] HTTP OPTIONS /api/Auth/login responded 204 in 0.4272 ms
+[20:55:54 INF] HTTP POST /api/Auth/login responded 200 in 252.4413 ms
+[20:55:54 INF] HTTP GET /Notification responded 101 in 14899.1068 ms
+[20:55:54 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0502 ms
+[20:55:54 INF] HTTP POST /Notification/negotiate responded 200 in 1.7979 ms
+[20:55:59 INF] HTTP OPTIONS /api/rewards responded 204 in 0.2414 ms
+[20:55:59 INF] HTTP OPTIONS /api/UserPoints/userPoints responded 204 in 0.1289 ms
+[20:55:59 INF] HTTP OPTIONS /api/UserPoints/userPoints responded 204 in 0.0866 ms
+[20:55:59 INF] HTTP OPTIONS /api/rewards responded 204 in 0.0627 ms
+[20:55:59 INF] HTTP OPTIONS /api/UserPoints/userPoints responded 204 in 0.0504 ms
+[20:55:59 INF] HTTP OPTIONS /api/UserPoints/userPoints responded 204 in 0.0505 ms
+[20:56:00 INF] HTTP GET /api/UserPoints/userPoints responded 200 in 137.5679 ms
+[20:56:00 INF] HTTP GET /api/rewards responded 200 in 147.0989 ms
+[20:56:00 INF] HTTP GET /api/rewards responded 200 in 14.0829 ms
+[20:56:00 INF] HTTP GET /api/UserPoints/userPoints responded 200 in 45.1840 ms
+[20:56:00 INF] HTTP GET /api/UserPoints/userPoints responded 200 in 7.5826 ms
+[20:56:00 INF] HTTP GET /api/UserPoints/userPoints responded 200 in 6.1992 ms
+[20:57:40 INF] HTTP OPTIONS /api/UserPoints/userPoints responded 204 in 0.0905 ms
+[20:57:40 INF] HTTP OPTIONS /api/rewards responded 204 in 0.0233 ms
+[20:57:40 INF] HTTP OPTIONS /api/UserPoints/userPoints responded 204 in 0.0196 ms
+[20:57:40 INF] HTTP OPTIONS /api/UserPoints/userPoints responded 204 in 0.0631 ms
+[20:57:40 INF] HTTP OPTIONS /api/rewards responded 204 in 0.1012 ms
+[20:57:40 INF] HTTP OPTIONS /api/UserPoints/userPoints responded 204 in 0.0321 ms
+[20:57:40 INF] HTTP GET /api/UserPoints/userPoints responded 200 in 78.4181 ms
+[20:57:40 INF] HTTP GET /api/rewards responded 200 in 99.0136 ms
+[20:57:40 INF] HTTP GET /api/UserPoints/userPoints responded 200 in 7.5415 ms
+[20:57:41 INF] HTTP GET /api/rewards responded 200 in 11.7077 ms
+[20:57:41 INF] HTTP GET /api/UserPoints/userPoints responded 200 in 6.4825 ms
+[20:57:41 INF] HTTP GET /api/UserPoints/userPoints responded 200 in 16.4244 ms
+[20:59:19 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 6.7064 ms
+[20:59:19 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 6.7097 ms
+[20:59:19 INF] HTTP GET /api/AdminRecycling/all responded 200 in 33.1085 ms
+[20:59:19 INF] HTTP GET /api/AdminRecycling/all responded 200 in 7.3954 ms
+[20:59:29 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.0705 ms
+[20:59:29 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.0704 ms
+[20:59:29 INF] HTTP GET /api/AdminRecycling/all responded 200 in 20.9152 ms
+[20:59:29 INF] HTTP GET /api/AdminRecycling/all responded 200 in 15.9361 ms
+[20:59:41 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.0951 ms
+[20:59:41 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.1012 ms
+[20:59:41 INF] HTTP GET /api/AdminRecycling/all responded 200 in 15.6162 ms
+[20:59:41 INF] HTTP GET /api/AdminRecycling/all responded 200 in 20.5361 ms
+[21:11:37 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 8.7221 ms
+[21:11:37 INF] HTTP GET /Notification responded 101 in 943085.5473 ms
+[21:11:37 INF] HTTP POST /Notification/negotiate responded 200 in 73.4631 ms
+[21:30:24 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 3.8666 ms
+[21:30:24 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 3.8827 ms
+[21:30:24 INF] HTTP GET /api/AdminRecycling/all responded 200 in 343.9475 ms
+[21:30:24 INF] HTTP GET /api/AdminRecycling/all responded 200 in 23.7255 ms
+[21:39:54 INF] HTTP OPTIONS /api/Community/admin/posts responded 204 in 5.5394 ms
+[21:39:54 INF] HTTP OPTIONS /api/Community/admin/posts responded 204 in 0.0574 ms
+[21:39:55 INF] HTTP GET /api/Community/admin/posts responded 200 in 926.2372 ms
+[21:39:55 INF] HTTP GET /api/Community/admin/posts responded 200 in 19.9095 ms
+[21:39:55 INF] HTTP GET /uploads/posts/41d90d4c-b09d-4b3f-8d20-316110275ab0.webp responded 404 in 8.2610 ms
+[21:39:55 INF] HTTP GET /uploads/posts/950c6715-6002-4f49-af7d-5883c7aad3c7.webp responded 404 in 6.2201 ms
+[21:39:55 INF] HTTP GET /uploads/posts/50ed99d6-d830-4d7b-84a8-1ac30f39c659.webp responded 404 in 14.2684 ms
+[22:00:16 INF] HTTP OPTIONS /api/Auth/login responded 204 in 15.3266 ms
+[22:00:17 INF] HTTP POST /api/Auth/login responded 200 in 1312.7567 ms
+[22:00:17 INF] HTTP GET /Notification responded 101 in 9196734.9686 ms
+[22:00:17 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.2918 ms
+[22:00:17 INF] HTTP POST /Notification/negotiate responded 200 in 39.7839 ms
+[22:00:42 INF] HTTP OPTIONS /api/Community/admin/posts responded 204 in 0.0757 ms
+[22:00:42 INF] HTTP OPTIONS /api/Community/admin/posts responded 204 in 0.0812 ms
+[22:00:42 INF] HTTP GET /api/Community/admin/posts responded 200 in 50.8738 ms
+[22:00:42 INF] HTTP GET /api/Community/admin/posts responded 200 in 9.7575 ms
+[22:00:42 INF] HTTP GET /uploads/posts/41d90d4c-b09d-4b3f-8d20-316110275ab0.webp responded 404 in 8.1584 ms
+[22:00:42 INF] HTTP GET /uploads/posts/50ed99d6-d830-4d7b-84a8-1ac30f39c659.webp responded 404 in 7.4644 ms
+[22:00:42 INF] HTTP GET /uploads/posts/950c6715-6002-4f49-af7d-5883c7aad3c7.webp responded 404 in 7.3245 ms
+[22:01:06 INF] HTTP GET /uploads/posts/50ed99d6-d830-4d7b-84a8-1ac30f39c659.webp responded 404 in 9.1511 ms
+[22:01:06 INF] HTTP GET /uploads/posts/950c6715-6002-4f49-af7d-5883c7aad3c7.webp responded 404 in 3.9222 ms
+[22:01:06 INF] HTTP GET /uploads/posts/41d90d4c-b09d-4b3f-8d20-316110275ab0.webp responded 404 in 17.2902 ms
+[22:01:11 INF] HTTP OPTIONS /api/Community/admin/posts responded 204 in 0.3297 ms
+[22:01:11 INF] HTTP OPTIONS /api/Community/admin/posts responded 204 in 0.0482 ms
+[22:01:11 INF] HTTP GET /api/Community/admin/posts responded 200 in 21.5674 ms
+[22:01:11 INF] HTTP GET /api/Community/admin/posts responded 200 in 11.2753 ms
+[22:01:11 INF] HTTP GET /uploads/posts/50ed99d6-d830-4d7b-84a8-1ac30f39c659.webp responded 404 in 2.1683 ms
+[22:01:11 INF] HTTP GET /uploads/posts/41d90d4c-b09d-4b3f-8d20-316110275ab0.webp responded 404 in 2.6915 ms
+[22:01:11 INF] HTTP GET /uploads/posts/950c6715-6002-4f49-af7d-5883c7aad3c7.webp responded 404 in 1.6823 ms
+[22:01:28 INF] HTTP OPTIONS /api/Community/admin/posts responded 204 in 0.0364 ms
+[22:01:28 INF] HTTP OPTIONS /api/Community/admin/posts responded 204 in 0.0138 ms
+[22:01:28 INF] HTTP GET /api/Community/admin/posts responded 200 in 25.4403 ms
+[22:01:28 INF] HTTP GET /api/Community/admin/posts responded 200 in 16.6013 ms
+[22:01:28 INF] HTTP GET /uploads/posts/50ed99d6-d830-4d7b-84a8-1ac30f39c659.webp responded 404 in 0.2720 ms
+[22:01:28 INF] HTTP GET /uploads/posts/41d90d4c-b09d-4b3f-8d20-316110275ab0.webp responded 404 in 0.4649 ms
+[22:01:28 INF] HTTP GET /uploads/posts/950c6715-6002-4f49-af7d-5883c7aad3c7.webp responded 404 in 0.7385 ms
+[22:03:11 INF] HTTP OPTIONS /api/Community/admin/posts responded 204 in 2.2153 ms
+[22:03:11 INF] HTTP OPTIONS /api/Community/admin/posts responded 204 in 2.3279 ms
+[22:03:11 INF] HTTP GET /api/Community/admin/posts responded 200 in 62.6921 ms
+[22:03:11 INF] HTTP GET /api/Community/admin/posts responded 200 in 19.6941 ms
+[22:03:11 INF] HTTP GET /uploads/posts/950c6715-6002-4f49-af7d-5883c7aad3c7.webp responded 404 in 0.6677 ms
+[22:03:11 INF] HTTP GET /uploads/posts/50ed99d6-d830-4d7b-84a8-1ac30f39c659.webp responded 404 in 0.6853 ms
+[22:03:11 INF] HTTP GET /uploads/posts/41d90d4c-b09d-4b3f-8d20-316110275ab0.webp responded 404 in 0.3422 ms
+[22:03:59 INF] HTTP OPTIONS /api/Community/admin/posts responded 204 in 0.0490 ms
+[22:03:59 INF] HTTP OPTIONS /api/Community/admin/posts responded 204 in 1.1494 ms
+[22:03:59 INF] HTTP GET /api/Community/admin/posts responded 200 in 16.7030 ms
+[22:03:59 INF] HTTP GET /api/Community/admin/posts responded 200 in 5.0203 ms
+[22:03:59 INF] HTTP GET /uploads/posts/950c6715-6002-4f49-af7d-5883c7aad3c7.webp responded 404 in 1.2233 ms
+[22:03:59 INF] HTTP GET /uploads/posts/41d90d4c-b09d-4b3f-8d20-316110275ab0.webp responded 404 in 1.2610 ms
+[22:03:59 INF] HTTP GET /uploads/posts/50ed99d6-d830-4d7b-84a8-1ac30f39c659.webp responded 404 in 1.2757 ms
+[22:04:43 INF] HTTP OPTIONS /api/Community/admin/posts responded 204 in 0.2192 ms
+[22:04:43 INF] HTTP OPTIONS /api/Community/admin/posts responded 204 in 0.0693 ms
+[22:04:43 INF] HTTP GET /api/Community/admin/posts responded 200 in 19.4490 ms
+[22:04:43 INF] HTTP GET /uploads/posts/41d90d4c-b09d-4b3f-8d20-316110275ab0.webp responded 404 in 0.3740 ms
+[22:04:43 INF] HTTP GET /uploads/posts/50ed99d6-d830-4d7b-84a8-1ac30f39c659.webp responded 404 in 0.5093 ms
+[22:04:43 INF] HTTP GET /uploads/posts/950c6715-6002-4f49-af7d-5883c7aad3c7.webp responded 404 in 0.2142 ms
+[22:04:43 INF] HTTP GET /api/Community/admin/posts responded 200 in 44.2269 ms
+[22:04:56 INF] HTTP OPTIONS /api/Community/admin/posts responded 204 in 0.0333 ms
+[22:04:56 INF] HTTP OPTIONS /api/Community/admin/posts responded 204 in 0.0091 ms
+[22:04:56 INF] HTTP GET /api/Community/admin/posts responded 200 in 5.8671 ms
+[22:04:56 INF] HTTP GET /api/Community/admin/posts responded 200 in 5.3611 ms
+[22:04:56 INF] HTTP GET /uploads/posts/50ed99d6-d830-4d7b-84a8-1ac30f39c659.webp responded 404 in 0.3414 ms
+[22:04:56 INF] HTTP GET /uploads/posts/950c6715-6002-4f49-af7d-5883c7aad3c7.webp responded 404 in 0.4147 ms
+[22:04:56 INF] HTTP GET /uploads/posts/41d90d4c-b09d-4b3f-8d20-316110275ab0.webp responded 404 in 1.1981 ms
+[22:06:02 INF] HTTP OPTIONS /api/Auth/login responded 204 in 0.0534 ms
+[22:06:03 INF] HTTP POST /api/Auth/login responded 200 in 971.6096 ms
+[22:06:03 INF] HTTP GET /Notification responded 101 in 3266074.4752 ms
+[22:06:04 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.6815 ms
+[22:06:04 INF] HTTP POST /Notification/negotiate responded 200 in 9.3701 ms
+[22:06:12 INF] HTTP OPTIONS /api/Community/admin/posts responded 204 in 0.0804 ms
+[22:06:12 INF] HTTP OPTIONS /api/Community/admin/posts responded 204 in 0.0413 ms
+[22:06:12 INF] HTTP GET /api/Community/admin/posts responded 200 in 27.6881 ms
+[22:06:13 INF] HTTP GET /api/Community/admin/posts responded 200 in 6.7726 ms
+[22:06:13 INF] HTTP GET /uploads/posts/50ed99d6-d830-4d7b-84a8-1ac30f39c659.webp responded 404 in 0.2493 ms
+[22:06:13 INF] HTTP GET /uploads/posts/41d90d4c-b09d-4b3f-8d20-316110275ab0.webp responded 404 in 0.2711 ms
+[22:06:13 INF] HTTP GET /uploads/posts/950c6715-6002-4f49-af7d-5883c7aad3c7.webp responded 404 in 1.2570 ms
+[22:06:26 INF] HTTP GET /uploads/posts/50ed99d6-d830-4d7b-84a8-1ac30f39c659.webp responded 404 in 0.5071 ms
+[22:06:30 INF] HTTP GET /uploads/posts/50ed99d6-d830-4d7b-84a8-1ac30f39c659.webp responded 404 in 1.0119 ms
+[22:07:36 INF] HTTP OPTIONS /api/Auth/login responded 204 in 0.0606 ms
+[22:07:36 INF] HTTP POST /api/Auth/login responded 200 in 188.3894 ms
+[22:07:36 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 57.7323 ms
+[22:07:36 INF] HTTP GET /Notification responded 101 in 92083.7566 ms
+[22:07:36 INF] HTTP POST /Notification/negotiate responded 200 in 20.3519 ms
+[22:07:41 INF] HTTP OPTIONS /api/Community/admin/posts responded 204 in 0.0443 ms
+[22:07:41 INF] HTTP OPTIONS /api/Community/admin/posts responded 204 in 0.0152 ms
+[22:07:41 INF] HTTP GET /api/Community/admin/posts responded 200 in 12.7423 ms
+[22:07:41 INF] HTTP GET /api/Community/admin/posts responded 200 in 19.3459 ms
+[22:07:41 INF] HTTP GET /uploads/posts/41d90d4c-b09d-4b3f-8d20-316110275ab0.webp responded 404 in 0.6134 ms
+[22:07:41 INF] HTTP GET /uploads/posts/950c6715-6002-4f49-af7d-5883c7aad3c7.webp responded 404 in 0.6865 ms
+[22:07:41 INF] HTTP GET /uploads/posts/50ed99d6-d830-4d7b-84a8-1ac30f39c659.webp responded 404 in 0.1783 ms
+[22:08:04 INF] HTTP OPTIONS /api/Auth/login responded 204 in 0.0483 ms
+[22:08:05 INF] HTTP POST /api/Auth/login responded 200 in 172.5497 ms
+[22:08:05 INF] HTTP GET /Notification responded 101 in 467421.3926 ms
+[22:08:05 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0307 ms
+[22:08:05 INF] HTTP POST /Notification/negotiate responded 200 in 11.0441 ms
+[22:08:16 INF] HTTP GET /api/Community/posts responded 200 in 60.1049 ms
+[22:08:16 INF] HTTP OPTIONS /api/Community/my-posts responded 204 in 0.0234 ms
+[22:08:16 INF] HTTP GET /api/Community/posts responded 200 in 5.8030 ms
+[22:08:17 INF] HTTP GET /api/Community/my-posts responded 200 in 853.4658 ms
+[22:08:17 INF] HTTP OPTIONS /api/Volunteers/me responded 204 in 0.0281 ms
+[22:08:17 INF] HTTP GET /api/Volunteers/me responded 404 in 2.1374 ms
+[22:08:17 INF] HTTP GET /api/Community/my-posts responded 200 in 14.3800 ms
+[22:08:17 INF] HTTP GET /uploads/posts/41d90d4c-b09d-4b3f-8d20-316110275ab0.webp responded 404 in 0.2978 ms
+[22:08:17 INF] HTTP GET /uploads/posts/50ed99d6-d830-4d7b-84a8-1ac30f39c659.webp responded 404 in 0.1002 ms
+[22:08:17 INF] HTTP GET /uploads/posts/950c6715-6002-4f49-af7d-5883c7aad3c7.webp responded 404 in 0.2260 ms
+[22:08:17 INF] HTTP GET /api/Volunteers/me responded 404 in 0.3122 ms
+[22:08:24 INF] HTTP GET /uploads/posts/950c6715-6002-4f49-af7d-5883c7aad3c7.webp responded 404 in 0.5592 ms
+[22:21:04 INF] HTTP GET /Notification responded 101 in 779470.7037 ms
+[22:21:06 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 29.9764 ms
+[22:21:06 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 29.9764 ms
+[22:21:06 INF] HTTP POST /Notification/negotiate responded 200 in 66.4094 ms
+[22:21:06 INF] HTTP POST /Notification/negotiate responded 200 in 66.4174 ms
+[22:21:09 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0754 ms
+[22:21:09 INF] HTTP GET /Notification responded 101 in 3598.2108 ms
+[22:21:09 INF] HTTP POST /Notification/negotiate responded 200 in 0.4155 ms
+[22:21:34 INF] HTTP OPTIONS /api/Auth/login responded 204 in 0.0770 ms
+[22:21:34 INF] HTTP POST /api/Auth/login responded 200 in 577.3320 ms
+[22:21:34 INF] HTTP GET /Notification responded 101 in 24728.9623 ms
+[22:21:34 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0394 ms
+[22:21:34 INF] HTTP POST /Notification/negotiate responded 200 in 2.0989 ms
+[22:21:40 INF] HTTP GET /api/Community/posts responded 200 in 34.6779 ms
+[22:21:40 INF] HTTP OPTIONS /api/Community/my-posts responded 204 in 0.0394 ms
+[22:21:40 INF] HTTP GET /api/Community/posts responded 200 in 13.2647 ms
+[22:21:40 INF] HTTP GET /api/Community/my-posts responded 200 in 13.5470 ms
+[22:21:40 INF] HTTP OPTIONS /api/Volunteers/me responded 204 in 0.1661 ms
+[22:21:40 INF] HTTP GET /api/Community/my-posts responded 200 in 5.9271 ms
+[22:21:40 INF] HTTP GET /api/Volunteers/me responded 404 in 0.7637 ms
+[22:21:40 INF] HTTP GET /api/Volunteers/me responded 404 in 0.9253 ms
+[22:21:40 INF] HTTP GET /uploads/posts/41d90d4c-b09d-4b3f-8d20-316110275ab0.webp responded 404 in 1.1797 ms
+[22:21:40 INF] HTTP GET /uploads/posts/950c6715-6002-4f49-af7d-5883c7aad3c7.webp responded 404 in 1.0549 ms
+[22:21:40 INF] HTTP GET /uploads/posts/50ed99d6-d830-4d7b-84a8-1ac30f39c659.webp responded 404 in 1.5136 ms
+[22:22:38 INF] HTTP OPTIONS /api/Community/posts responded 204 in 0.0787 ms
+[22:22:39 INF] HTTP POST /api/Community/posts responded 200 in 352.1336 ms
+[22:22:39 INF] HTTP GET /api/Community/posts responded 200 in 11.6955 ms
+[22:22:39 INF] HTTP OPTIONS /api/Community/my-posts responded 204 in 0.0397 ms
+[22:22:39 INF] HTTP GET /api/Community/my-posts responded 200 in 10.9051 ms
+[22:22:39 INF] HTTP OPTIONS /api/Volunteers/me responded 204 in 0.0204 ms
+[22:22:39 INF] HTTP GET /api/Volunteers/me responded 404 in 0.2583 ms
+[22:22:39 INF] HTTP GET /uploads/posts/950c6715-6002-4f49-af7d-5883c7aad3c7.webp responded 404 in 0.4556 ms
+[22:22:39 INF] HTTP GET /uploads/posts/41d90d4c-b09d-4b3f-8d20-316110275ab0.webp responded 404 in 0.6354 ms
+[22:22:39 INF] HTTP GET /uploads/posts/50ed99d6-d830-4d7b-84a8-1ac30f39c659.webp responded 404 in 6.3465 ms
+[22:22:39 INF] HTTP GET /uploads/posts/075f2697-98aa-472e-98e1-c8993979e66f.webp responded 200 in 207.5557 ms
+[22:22:55 INF] HTTP GET /uploads/posts/41d90d4c-b09d-4b3f-8d20-316110275ab0.webp responded 404 in 0.3009 ms
+[22:32:44 INF] HTTP OPTIONS /api/Community/posts responded 204 in 4.3053 ms
+[22:32:44 INF] HTTP POST /api/Community/posts responded 200 in 380.3068 ms
+[22:32:44 INF] HTTP GET /api/Community/posts responded 200 in 30.5652 ms
+[22:32:44 INF] HTTP OPTIONS /api/Community/my-posts responded 204 in 0.1800 ms
+[22:32:44 INF] HTTP GET /api/Community/my-posts responded 200 in 13.4350 ms
+[22:32:44 INF] HTTP OPTIONS /api/Volunteers/me responded 204 in 0.0315 ms
+[22:32:44 INF] HTTP GET /api/Volunteers/me responded 404 in 0.1774 ms
+[22:32:44 INF] HTTP GET /uploads/posts/50ed99d6-d830-4d7b-84a8-1ac30f39c659.webp responded 404 in 1.6358 ms
+[22:32:44 INF] HTTP GET /uploads/posts/41d90d4c-b09d-4b3f-8d20-316110275ab0.webp responded 404 in 1.8470 ms
+[22:32:44 INF] HTTP GET /uploads/posts/950c6715-6002-4f49-af7d-5883c7aad3c7.webp responded 404 in 1.2269 ms
+[22:37:15 INF] HTTP GET /Notification responded 101 in 940728.3722 ms
+[22:37:16 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 13.3993 ms
+[22:37:16 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 13.5110 ms
+[22:37:16 INF] HTTP POST /Notification/negotiate responded 200 in 43.6458 ms
+[22:37:16 INF] HTTP POST /Notification/negotiate responded 200 in 49.5457 ms
+[22:37:20 INF] HTTP GET /api/Community/posts responded 200 in 67.9560 ms
+[22:37:20 INF] HTTP OPTIONS /api/Community/my-posts responded 204 in 0.2435 ms
+[22:37:20 INF] HTTP GET /api/Community/posts responded 200 in 8.3496 ms
+[22:37:20 INF] HTTP GET /api/Community/my-posts responded 200 in 15.1296 ms
+[22:37:20 INF] HTTP GET /api/Community/my-posts responded 200 in 3.9064 ms
+[22:37:20 INF] HTTP OPTIONS /api/Volunteers/me responded 204 in 0.0343 ms
+[22:37:20 INF] HTTP GET /api/Volunteers/me responded 404 in 0.6147 ms
+[22:37:20 INF] HTTP GET /api/Volunteers/me responded 404 in 0.2797 ms
+[22:37:20 INF] HTTP GET /uploads/posts/075f2697-98aa-472e-98e1-c8993979e66f.webp responded 304 in 49.9221 ms
+[22:37:32 INF] HTTP GET /Notification responded 101 in 1796557.3718 ms
+[22:37:34 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0616 ms
+[22:37:34 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0245 ms
+[22:37:34 INF] HTTP POST /Notification/negotiate responded 200 in 2.3940 ms
+[22:37:34 INF] HTTP POST /Notification/negotiate responded 200 in 0.6981 ms
+[22:37:38 INF] HTTP OPTIONS /api/Community/admin/posts responded 204 in 0.1325 ms
+[22:37:38 INF] HTTP OPTIONS /api/Community/admin/posts responded 204 in 0.0792 ms
+[22:37:38 INF] HTTP GET /api/Community/admin/posts responded 200 in 46.5440 ms
+[22:37:38 INF] HTTP GET /api/Community/admin/posts responded 200 in 13.1504 ms
+[22:37:38 INF] HTTP GET /uploads/posts/075f2697-98aa-472e-98e1-c8993979e66f.webp responded 200 in 34.6152 ms
+[22:40:28 INF] HTTP OPTIONS /api/Community/posts responded 204 in 0.2560 ms
+[22:40:28 INF] HTTP POST /api/Community/posts responded 200 in 322.2779 ms
+[22:40:28 INF] HTTP GET /api/Community/posts responded 200 in 9.1006 ms
+[22:40:28 INF] HTTP OPTIONS /api/Community/my-posts responded 204 in 0.0276 ms
+[22:40:28 INF] HTTP GET /api/Community/my-posts responded 200 in 6.4497 ms
+[22:40:28 INF] HTTP OPTIONS /api/Volunteers/me responded 204 in 0.0199 ms
+[22:40:28 INF] HTTP GET /api/Volunteers/me responded 404 in 0.1841 ms
+[22:40:28 INF] HTTP GET /uploads/posts/c9b88f24-0413-44c1-a47f-081bb98d67d1.jpg responded 200 in 1.4834 ms
+[22:41:01 INF] HTTP GET /Notification responded 101 in 207340.2308 ms
+[22:41:02 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0804 ms
+[22:41:02 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0720 ms
+[22:41:02 INF] HTTP POST /Notification/negotiate responded 200 in 1.5851 ms
+[22:41:02 INF] HTTP POST /Notification/negotiate responded 200 in 0.3263 ms
+[22:41:05 INF] HTTP OPTIONS /api/Community/admin/posts responded 204 in 0.0933 ms
+[22:41:05 INF] HTTP OPTIONS /api/Community/admin/posts responded 204 in 0.0934 ms
+[22:41:05 INF] HTTP GET /api/Community/admin/posts responded 200 in 21.3736 ms
+[22:41:05 INF] HTTP GET /api/Community/admin/posts responded 200 in 5.0438 ms
+[22:41:05 INF] HTTP GET /uploads/posts/075f2697-98aa-472e-98e1-c8993979e66f.webp responded 304 in 2.0402 ms
+[22:41:05 INF] HTTP GET /uploads/posts/c9b88f24-0413-44c1-a47f-081bb98d67d1.jpg responded 200 in 4.5382 ms
+[22:42:57 INF] HTTP POST /api/Auth/register responded 200 in 816.6407 ms
+[22:43:10 INF] HTTP GET /Notification responded 101 in 353327.4913 ms
+[22:43:10 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0523 ms
+[22:43:10 INF] HTTP POST /Notification/negotiate responded 200 in 0.3617 ms
+[22:43:25 INF] HTTP OPTIONS /api/Auth/login responded 204 in 0.1065 ms
+[22:43:25 INF] HTTP POST /api/Auth/login responded 401 in 136.6161 ms
+[22:43:31 INF] HTTP OPTIONS /api/Auth/login responded 204 in 0.0548 ms
+[22:43:31 INF] HTTP POST /api/Auth/login responded 401 in 153.8080 ms
+[22:44:12 INF] HTTP OPTIONS /api/Auth/login responded 204 in 0.0435 ms
+[22:44:13 INF] HTTP POST /api/Auth/login responded 401 in 117.5806 ms
+[22:44:19 INF] HTTP OPTIONS /api/Auth/login responded 204 in 0.0266 ms
+[22:44:19 INF] HTTP POST /api/Auth/login responded 401 in 104.9839 ms
+[22:44:25 INF] HTTP OPTIONS /api/Auth/login responded 204 in 0.0269 ms
+[22:44:25 INF] HTTP POST /api/Auth/login responded 401 in 97.6967 ms
+[22:45:01 INF] HTTP OPTIONS /api/Auth/login responded 204 in 0.0445 ms
+[22:45:01 INF] HTTP POST /api/Auth/login responded 200 in 141.9088 ms
+[22:45:01 INF] HTTP GET /Notification responded 101 in 111761.2797 ms
+[22:45:01 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0310 ms
+[22:45:01 INF] HTTP POST /Notification/negotiate responded 200 in 0.4849 ms
+[22:45:09 INF] HTTP GET /api/Community/posts responded 200 in 13.8662 ms
+[22:45:09 INF] HTTP OPTIONS /api/Community/my-posts responded 204 in 0.0292 ms
+[22:45:09 INF] HTTP GET /api/Community/posts responded 200 in 4.6315 ms
+[22:45:09 INF] HTTP GET /api/Community/my-posts responded 200 in 17.8877 ms
+[22:45:09 INF] HTTP GET /api/Community/my-posts responded 200 in 3.7927 ms
+[22:45:09 INF] HTTP OPTIONS /api/Volunteers/me responded 204 in 0.0199 ms
+[22:45:09 INF] HTTP OPTIONS /api/Volunteers/me responded 204 in 0.0153 ms
+[22:45:09 INF] HTTP GET /api/Volunteers/me responded 404 in 0.3199 ms
+[22:45:09 INF] HTTP GET /api/Volunteers/me responded 404 in 0.4948 ms
+[22:45:09 INF] HTTP GET /uploads/posts/c9b88f24-0413-44c1-a47f-081bb98d67d1.jpg responded 304 in 0.8777 ms
+[22:45:09 INF] HTTP GET /uploads/posts/075f2697-98aa-472e-98e1-c8993979e66f.webp responded 304 in 0.7804 ms
+[22:45:43 INF] HTTP OPTIONS /api/Community/4/complete responded 204 in 0.4748 ms
+[22:45:43 INF] HTTP POST /api/Community/4/complete responded 404 in 0.5069 ms
+[22:45:46 INF] HTTP POST /api/Community/4/complete responded 404 in 0.3629 ms
+[22:45:53 INF] HTTP OPTIONS /api/Community/4/complete responded 204 in 0.0455 ms
+[22:45:53 INF] HTTP POST /api/Community/4/complete responded 404 in 0.4952 ms
+[22:45:54 INF] HTTP POST /api/Community/4/complete responded 404 in 0.7119 ms
+[22:45:54 INF] HTTP POST /api/Community/4/complete responded 404 in 0.4240 ms
+[22:45:54 INF] HTTP POST /api/Community/4/complete responded 404 in 0.6074 ms
+[22:45:55 INF] HTTP POST /api/Community/4/complete responded 404 in 0.5283 ms
+[22:45:55 INF] HTTP POST /api/Community/4/complete responded 404 in 0.3547 ms
+[22:45:55 INF] HTTP POST /api/Community/4/complete responded 404 in 0.4164 ms
+[22:45:55 INF] HTTP POST /api/Community/4/complete responded 404 in 0.3190 ms
+[22:45:55 INF] HTTP POST /api/Community/4/complete responded 404 in 0.3546 ms
+[22:45:55 INF] HTTP POST /api/Community/4/complete responded 404 in 0.3360 ms
+[22:45:55 INF] HTTP POST /api/Community/4/complete responded 404 in 0.3015 ms
+[22:45:56 INF] HTTP POST /api/Community/4/complete responded 404 in 1.8626 ms
+[22:45:56 INF] HTTP POST /api/Community/4/complete responded 404 in 0.3049 ms
+[22:49:05 INF] HTTP OPTIONS /api/Community/posts/4/complete responded 204 in 6.8063 ms
+[22:49:05 INF] HTTP POST /api/Community/posts/4/complete responded 400 in 385.1249 ms
+[22:51:24 INF] HTTP OPTIONS /api/Community/posts/4/complete responded 204 in 7.8396 ms
+[22:51:24 INF] HTTP POST /api/Community/posts/4/complete responded 400 in 88.8380 ms
+[22:52:47 INF] HTTP OPTIONS /api/Community/posts/4/complete responded 204 in 0.0816 ms
+[22:52:47 INF] HTTP POST /api/Community/posts/4/complete responded 400 in 447.8582 ms
+[22:59:07 INF] HTTP GET /Notification responded 101 in 1085388.0356 ms
+[23:11:04 INF] HTTP OPTIONS /api/Community/posts/4/complete responded 204 in 64.6454 ms
+[23:11:04 WRN] Failed to determine the https port for redirect.
+[23:11:05 INF] HTTP POST /api/Community/posts/4/complete responded 400 in 767.5811 ms
+[23:11:17 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 1.9612 ms
+[23:11:17 INF] HTTP POST /Notification/negotiate responded 200 in 64.3272 ms
+[23:11:34 INF] HTTP OPTIONS /api/Community/posts/4/complete responded 204 in 0.1663 ms
+[23:11:37 INF] HTTP POST /api/Community/posts/4/complete responded 200 in 3817.1667 ms
+[23:11:40 INF] HTTP GET /api/Community/posts responded 200 in 261.1050 ms
+[23:11:40 INF] HTTP OPTIONS /api/Community/my-posts responded 204 in 0.0596 ms
+[23:11:40 INF] HTTP GET /api/Community/my-posts responded 200 in 57.6884 ms
+[23:11:40 INF] HTTP OPTIONS /api/Volunteers/me responded 204 in 0.0914 ms
+[23:11:40 INF] HTTP GET /api/Volunteers/me responded 404 in 0.5503 ms
+[23:12:48 INF] HTTP OPTIONS /api/Community/posts/5/complete responded 204 in 0.2574 ms
+[23:12:48 INF] HTTP POST /api/Community/posts/5/complete responded 200 in 58.8407 ms
+[23:12:50 INF] HTTP GET /api/Community/posts responded 200 in 20.0135 ms
+[23:12:50 INF] HTTP OPTIONS /api/Community/my-posts responded 204 in 0.0480 ms
+[23:12:50 INF] HTTP GET /api/Community/my-posts responded 200 in 7.8549 ms
+[23:12:50 INF] HTTP OPTIONS /api/Volunteers/me responded 204 in 0.0476 ms
+[23:12:50 INF] HTTP GET /api/Volunteers/me responded 404 in 0.2743 ms
+[23:13:03 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 3.0149 ms
+[23:13:03 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0933 ms
+[23:13:03 INF] HTTP POST /Notification/negotiate responded 200 in 11.2758 ms
+[23:13:03 INF] HTTP POST /Notification/negotiate responded 200 in 11.2748 ms
+[23:13:06 INF] HTTP GET /Notification responded 101 in 3086.9537 ms
+[23:13:08 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.1463 ms
+[23:13:08 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0682 ms
+[23:13:08 INF] HTTP POST /Notification/negotiate responded 200 in 0.7508 ms
+[23:13:08 INF] HTTP POST /Notification/negotiate responded 200 in 1.5421 ms
+[23:13:11 INF] HTTP OPTIONS /api/Community/admin/posts responded 204 in 0.3085 ms
+[23:13:11 INF] HTTP OPTIONS /api/Community/admin/posts responded 204 in 0.3085 ms
+[23:13:11 INF] HTTP GET /api/Community/admin/posts responded 200 in 114.8121 ms
+[23:13:11 INF] HTTP GET /api/Community/admin/posts responded 200 in 9.3616 ms
+[23:13:11 INF] HTTP GET /uploads/posts/075f2697-98aa-472e-98e1-c8993979e66f.webp responded 304 in 35.2571 ms
+[23:13:11 INF] HTTP GET /uploads/posts/c9b88f24-0413-44c1-a47f-081bb98d67d1.jpg responded 304 in 36.1110 ms
+[23:13:43 INF] HTTP OPTIONS /api/Community/admin/posts/5/review responded 204 in 0.0953 ms
+[23:13:43 INF] HTTP POST /api/Community/admin/posts/5/review responded 401 in 41.9640 ms
+[23:14:35 INF] HTTP OPTIONS /api/Community/admin/posts/4/review responded 204 in 0.1809 ms
+[23:14:35 INF] HTTP POST /api/Community/admin/posts/4/review responded 401 in 5.6032 ms
+[23:14:44 INF] HTTP OPTIONS /api/Community/admin/posts/4/review responded 204 in 0.0660 ms
+[23:14:44 INF] HTTP POST /api/Community/admin/posts/4/review responded 401 in 1.5957 ms
+[23:14:45 INF] HTTP POST /api/Community/admin/posts/4/review responded 401 in 4.3740 ms
+[23:14:46 INF] HTTP POST /api/Community/admin/posts/4/review responded 401 in 3.1032 ms
+[23:14:48 INF] HTTP POST /api/Community/admin/posts/4/review responded 401 in 2.9921 ms
+[23:18:47 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 2.5749 ms
+[23:18:47 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 2.6281 ms
+[23:18:47 WRN] Failed to determine the https port for redirect.
+[23:18:47 INF] HTTP POST /Notification/negotiate responded 200 in 120.9638 ms
+[23:18:47 INF] HTTP POST /Notification/negotiate responded 200 in 128.6909 ms
+[23:18:58 INF] HTTP OPTIONS /api/Community/admin/posts/4/review responded 204 in 0.5119 ms
+[23:18:59 INF] HTTP POST /api/Community/admin/posts/4/review responded 200 in 975.1683 ms
+[23:18:59 INF] HTTP OPTIONS /api/Community/admin/posts responded 204 in 0.0917 ms
+[23:19:00 INF] HTTP GET /api/Community/admin/posts responded 200 in 149.2073 ms
+[23:19:29 INF] HTTP OPTIONS /api/Community/admin/posts/4/review responded 204 in 0.4084 ms
+[23:19:29 INF] HTTP POST /api/Community/admin/posts/4/review responded 400 in 20.3300 ms
+[23:21:34 INF] HTTP GET /Notification responded 101 in 167150.6981 ms
+[23:21:39 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.3697 ms
+[23:21:39 INF] HTTP POST /Notification/negotiate responded 200 in 34.5062 ms
+[23:21:39 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0708 ms
+[23:21:39 INF] HTTP POST /Notification/negotiate responded 200 in 5.8272 ms
+[23:21:43 INF] HTTP GET /api/Community/posts responded 200 in 525.6192 ms
+[23:21:43 INF] HTTP OPTIONS /api/Community/my-posts responded 204 in 0.4642 ms
+[23:21:43 INF] HTTP GET /api/Community/posts responded 200 in 14.0866 ms
+[23:21:43 INF] HTTP GET /api/Community/my-posts responded 401 in 256.9786 ms
+[23:21:43 INF] HTTP GET /api/Community/my-posts responded 401 in 2.6693 ms
+[23:21:43 INF] HTTP OPTIONS /api/Volunteers/me responded 204 in 0.0791 ms
+[23:21:43 INF] HTTP OPTIONS /api/Volunteers/me responded 204 in 2.8646 ms
+[23:21:43 INF] HTTP GET /api/Volunteers/me responded 404 in 30.4138 ms
+[23:21:43 INF] HTTP GET /api/Volunteers/me responded 404 in 5.0718 ms
+[23:21:43 INF] HTTP GET /uploads/posts/c9b88f24-0413-44c1-a47f-081bb98d67d1.jpg responded 304 in 363.5769 ms
+[23:21:43 INF] HTTP GET /uploads/posts/075f2697-98aa-472e-98e1-c8993979e66f.webp responded 304 in 363.5444 ms

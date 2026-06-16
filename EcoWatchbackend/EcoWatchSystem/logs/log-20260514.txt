@@ -1,0 +1,4 @@
+[14:31:02 WRN] Failed to determine the https port for redirect.
+[14:31:03 INF] HTTP POST /api/Auth/login responded 200 in 1386.3654 ms
+[14:33:15 INF] Reort with name water issue is created
+[14:33:16 INF] HTTP POST /api/Reports responded 201 in 2355.1604 ms

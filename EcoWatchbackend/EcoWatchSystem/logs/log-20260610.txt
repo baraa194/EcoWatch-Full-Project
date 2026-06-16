@@ -1,0 +1,1129 @@
+[00:46:20 INF] HTTP GET /Notification responded 101 in 5081592.1341 ms
+[00:46:20 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 22.0649 ms
+[00:46:21 INF] HTTP POST /Notification/negotiate responded 200 in 59.9460 ms
+[00:46:46 INF] HTTP GET /Notification responded 101 in 5279377.2289 ms
+[00:46:47 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.7745 ms
+[00:46:47 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.7753 ms
+[00:46:47 INF] HTTP POST /Notification/negotiate responded 200 in 59.6529 ms
+[00:46:47 INF] HTTP POST /Notification/negotiate responded 200 in 55.7392 ms
+[00:46:54 INF] HTTP OPTIONS /api/Community/admin/posts responded 204 in 1.0873 ms
+[00:46:54 INF] HTTP OPTIONS /api/Community/admin/posts responded 204 in 1.0172 ms
+[00:46:54 INF] HTTP GET /api/Community/admin/posts responded 200 in 458.2027 ms
+[00:46:54 INF] HTTP GET /api/Community/admin/posts responded 200 in 13.2987 ms
+[00:46:55 INF] HTTP GET /uploads/posts/075f2697-98aa-472e-98e1-c8993979e66f.webp responded 304 in 7.7345 ms
+[00:46:55 INF] HTTP GET /uploads/posts/c9b88f24-0413-44c1-a47f-081bb98d67d1.jpg responded 304 in 8.0052 ms
+[00:47:15 INF] HTTP GET /Notification responded 101 in 27083.1720 ms
+[00:47:15 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.1140 ms
+[00:47:15 INF] HTTP POST /Notification/negotiate responded 200 in 1.0384 ms
+[01:06:55 INF] HTTP OPTIONS /api/Auth/login responded 204 in 9.0707 ms
+[01:06:57 INF] HTTP POST /api/Auth/login responded 200 in 1782.4967 ms
+[01:06:57 INF] HTTP GET /Notification responded 101 in 1236251.0232 ms
+[01:06:57 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.1154 ms
+[01:06:57 INF] HTTP POST /Notification/negotiate responded 200 in 25.0956 ms
+[01:07:03 INF] HTTP GET /api/Community/posts responded 200 in 44.0037 ms
+[01:07:03 INF] HTTP OPTIONS /api/Community/my-posts responded 204 in 0.0357 ms
+[01:07:03 INF] HTTP GET /api/Community/posts responded 200 in 7.3576 ms
+[01:07:03 INF] HTTP GET /api/Community/my-posts responded 200 in 42.0142 ms
+[01:07:03 INF] HTTP GET /api/Community/my-posts responded 200 in 7.1586 ms
+[01:07:03 INF] HTTP OPTIONS /api/Volunteers/me responded 204 in 0.0376 ms
+[01:07:03 INF] HTTP OPTIONS /api/Volunteers/me responded 204 in 0.1520 ms
+[01:07:03 INF] HTTP GET /api/Volunteers/me responded 404 in 0.5462 ms
+[01:07:03 INF] HTTP GET /api/Volunteers/me responded 404 in 0.6374 ms
+[01:07:03 INF] HTTP GET /uploads/posts/075f2697-98aa-472e-98e1-c8993979e66f.webp responded 304 in 7.2933 ms
+[01:07:03 INF] HTTP GET /uploads/posts/c9b88f24-0413-44c1-a47f-081bb98d67d1.jpg responded 304 in 7.3543 ms
+[01:09:19 INF] HTTP GET /Notification responded 101 in 142421.3593 ms
+[01:09:19 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.1276 ms
+[01:09:19 INF] HTTP POST /Notification/negotiate responded 200 in 0.7575 ms
+[01:09:20 INF] HTTP GET /Notification responded 101 in 1325604.7483 ms
+[01:09:59 INF] HTTP OPTIONS /api/Auth/login responded 204 in 0.2070 ms
+[01:09:59 INF] HTTP POST /api/Auth/login responded 200 in 265.5493 ms
+[01:09:59 INF] HTTP GET /Notification responded 101 in 39352.9886 ms
+[01:09:59 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0699 ms
+[01:09:59 INF] HTTP POST /Notification/negotiate responded 200 in 4.6409 ms
+[01:10:03 INF] HTTP GET /api/Community/posts responded 200 in 34.6940 ms
+[01:10:03 INF] HTTP GET /api/Community/posts responded 200 in 10.8861 ms
+[01:10:03 INF] HTTP OPTIONS /api/Community/my-posts responded 204 in 13.9934 ms
+[01:10:03 INF] HTTP OPTIONS /api/Community/my-posts responded 204 in 0.8172 ms
+[01:10:03 INF] HTTP GET /api/Community/my-posts responded 200 in 12.1196 ms
+[01:10:03 INF] HTTP OPTIONS /api/Volunteers/me responded 204 in 0.0430 ms
+[01:10:03 INF] HTTP GET /api/Community/my-posts responded 200 in 7.0507 ms
+[01:10:03 INF] HTTP GET /api/Volunteers/me responded 404 in 0.4757 ms
+[01:10:03 INF] HTTP GET /api/Volunteers/me responded 404 in 0.5632 ms
+[01:10:52 INF] HTTP OPTIONS /api/Community/posts responded 204 in 0.1390 ms
+[01:10:52 INF] HTTP POST /api/Community/posts responded 200 in 318.5525 ms
+[01:10:52 INF] HTTP GET /api/Community/posts responded 200 in 14.2609 ms
+[01:10:52 INF] HTTP OPTIONS /api/Community/my-posts responded 204 in 0.0421 ms
+[01:10:53 INF] HTTP GET /api/Community/my-posts responded 200 in 11.9798 ms
+[01:10:53 INF] HTTP OPTIONS /api/Volunteers/me responded 204 in 0.0390 ms
+[01:10:53 INF] HTTP GET /api/Volunteers/me responded 404 in 0.6755 ms
+[01:10:53 INF] HTTP GET /uploads/posts/27da97a4-11db-455d-830e-3f80818752fb.jpg responded 200 in 51.8890 ms
+[01:11:02 INF] HTTP GET /Notification responded 101 in 63030.1720 ms
+[01:11:02 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0779 ms
+[01:11:02 INF] HTTP POST /Notification/negotiate responded 200 in 2.2989 ms
+[01:11:18 INF] HTTP OPTIONS /api/Auth/login responded 204 in 0.2870 ms
+[01:11:18 INF] HTTP POST /api/Auth/login responded 200 in 231.1904 ms
+[01:11:19 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.1178 ms
+[01:11:19 INF] HTTP GET /Notification responded 101 in 16599.5742 ms
+[01:11:19 INF] HTTP POST /Notification/negotiate responded 200 in 4.8274 ms
+[01:11:23 INF] HTTP GET /api/Community/posts responded 200 in 25.8303 ms
+[01:11:23 INF] HTTP OPTIONS /api/Community/my-posts responded 204 in 0.0488 ms
+[01:11:23 INF] HTTP GET /api/Community/posts responded 200 in 27.5774 ms
+[01:11:23 INF] HTTP GET /api/Community/my-posts responded 200 in 16.6814 ms
+[01:11:23 INF] HTTP OPTIONS /api/Volunteers/me responded 204 in 0.0366 ms
+[01:11:23 INF] HTTP GET /api/Community/my-posts responded 200 in 9.0572 ms
+[01:11:23 INF] HTTP GET /api/Volunteers/me responded 404 in 0.9843 ms
+[01:11:23 INF] HTTP GET /api/Volunteers/me responded 404 in 0.6015 ms
+[01:11:23 INF] HTTP GET /uploads/posts/27da97a4-11db-455d-830e-3f80818752fb.jpg responded 304 in 3.7779 ms
+[01:12:24 INF] HTTP GET /Notification responded 101 in 65508.0993 ms
+[01:12:24 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.1852 ms
+[01:12:24 INF] HTTP POST /Notification/negotiate responded 200 in 0.4028 ms
+[01:12:47 INF] HTTP OPTIONS /api/Auth/login responded 204 in 0.0348 ms
+[01:12:48 INF] HTTP POST /api/Auth/login responded 200 in 205.9299 ms
+[01:12:48 INF] HTTP GET /Notification responded 101 in 23596.7818 ms
+[01:12:48 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0522 ms
+[01:12:48 INF] HTTP POST /Notification/negotiate responded 200 in 5.1071 ms
+[01:12:55 INF] HTTP GET /api/Community/posts responded 200 in 23.7595 ms
+[01:12:55 INF] HTTP OPTIONS /api/Community/my-posts responded 204 in 0.0367 ms
+[01:12:55 INF] HTTP GET /api/Community/posts responded 200 in 18.6603 ms
+[01:12:55 INF] HTTP GET /api/Community/my-posts responded 200 in 14.9018 ms
+[01:12:55 INF] HTTP GET /api/Community/my-posts responded 200 in 8.2170 ms
+[01:12:55 INF] HTTP OPTIONS /api/Volunteers/me responded 204 in 0.0713 ms
+[01:12:55 INF] HTTP OPTIONS /api/Volunteers/me responded 204 in 0.0347 ms
+[01:12:55 INF] HTTP GET /api/Volunteers/me responded 404 in 0.4863 ms
+[01:12:55 INF] HTTP GET /api/Volunteers/me responded 404 in 1.2993 ms
+[01:12:55 INF] HTTP GET /uploads/posts/27da97a4-11db-455d-830e-3f80818752fb.jpg responded 304 in 1.3058 ms
+[01:13:30 INF] HTTP OPTIONS /api/Community/posts/7/complete responded 204 in 0.1093 ms
+[01:13:30 INF] HTTP POST /api/Community/posts/7/complete responded 200 in 138.1871 ms
+[01:13:32 INF] HTTP GET /api/Community/posts responded 200 in 15.2230 ms
+[01:13:32 INF] HTTP OPTIONS /api/Community/my-posts responded 204 in 0.0515 ms
+[01:13:32 INF] HTTP GET /api/Community/my-posts responded 200 in 10.1059 ms
+[01:13:32 INF] HTTP OPTIONS /api/Volunteers/me responded 204 in 0.0269 ms
+[01:13:32 INF] HTTP GET /api/Volunteers/me responded 404 in 0.4704 ms
+[01:14:00 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0739 ms
+[01:14:00 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0605 ms
+[01:14:00 INF] HTTP POST /Notification/negotiate responded 200 in 2.2747 ms
+[01:14:00 INF] HTTP POST /Notification/negotiate responded 200 in 0.4209 ms
+[01:14:10 INF] HTTP GET /Notification responded 101 in 82040.0348 ms
+[01:14:10 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0827 ms
+[01:14:10 INF] HTTP POST /Notification/negotiate responded 200 in 0.4968 ms
+[01:14:27 INF] HTTP OPTIONS /api/Auth/login responded 204 in 0.0681 ms
+[01:14:28 INF] HTTP POST /api/Auth/login responded 200 in 197.2515 ms
+[01:14:28 INF] HTTP GET /Notification responded 101 in 17801.2822 ms
+[01:14:28 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0424 ms
+[01:14:28 INF] HTTP POST /Notification/negotiate responded 200 in 0.6965 ms
+[01:14:37 INF] HTTP OPTIONS /api/Community/admin/posts responded 204 in 0.0880 ms
+[01:14:37 INF] HTTP OPTIONS /api/Community/admin/posts responded 204 in 0.0167 ms
+[01:14:37 INF] HTTP GET /api/Community/admin/posts responded 200 in 65.9067 ms
+[01:14:37 INF] HTTP GET /api/Community/admin/posts responded 200 in 7.9404 ms
+[01:14:37 INF] HTTP GET /uploads/posts/27da97a4-11db-455d-830e-3f80818752fb.jpg responded 304 in 4.1022 ms
+[01:14:50 INF] HTTP GET /uploads/proof/f3e17674-6e96-4bba-9c9e-2e43970a914a.jpg responded 200 in 9.1750 ms
+[01:15:09 INF] HTTP OPTIONS /api/Community/admin/posts/7/review responded 204 in 0.0410 ms
+[01:15:09 INF] HTTP POST /api/Community/admin/posts/7/review responded 200 in 28.7119 ms
+[01:15:09 INF] HTTP OPTIONS /api/Community/admin/posts responded 204 in 0.8283 ms
+[01:15:09 INF] HTTP GET /api/Community/admin/posts responded 200 in 10.4121 ms
+[01:15:18 INF] HTTP GET /Notification responded 101 in 50272.5164 ms
+[01:15:19 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0884 ms
+[01:15:19 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.1607 ms
+[01:15:19 INF] HTTP POST /Notification/negotiate responded 200 in 1.3949 ms
+[01:15:19 INF] HTTP POST /Notification/negotiate responded 200 in 0.6930 ms
+[01:15:25 INF] HTTP OPTIONS /api/Community/admin/posts responded 204 in 0.4223 ms
+[01:15:25 INF] HTTP OPTIONS /api/Community/admin/posts responded 204 in 0.1219 ms
+[01:15:25 INF] HTTP GET /api/Community/admin/posts responded 200 in 16.0782 ms
+[01:15:25 INF] HTTP GET /api/Community/admin/posts responded 200 in 10.9586 ms
+[01:15:25 INF] HTTP GET /uploads/posts/27da97a4-11db-455d-830e-3f80818752fb.jpg responded 304 in 0.8050 ms
+[01:16:08 INF] HTTP GET /Notification responded 101 in 48948.6983 ms
+[01:16:08 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.1308 ms
+[01:16:08 INF] HTTP POST /Notification/negotiate responded 200 in 0.5012 ms
+[01:16:18 INF] HTTP OPTIONS /api/Auth/login responded 204 in 0.1242 ms
+[01:16:18 INF] HTTP POST /api/Auth/login responded 200 in 160.5242 ms
+[01:16:18 INF] HTTP GET /Notification responded 101 in 10000.5396 ms
+[01:16:18 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0663 ms
+[01:16:18 INF] HTTP POST /Notification/negotiate responded 200 in 0.8094 ms
+[01:16:22 INF] HTTP GET /api/Community/posts responded 200 in 15.7469 ms
+[01:16:22 INF] HTTP OPTIONS /api/Community/my-posts responded 204 in 0.0628 ms
+[01:16:22 INF] HTTP GET /api/Community/posts responded 200 in 22.5438 ms
+[01:16:22 INF] HTTP GET /api/Community/my-posts responded 200 in 9.7593 ms
+[01:16:22 INF] HTTP GET /api/Community/my-posts responded 200 in 5.7753 ms
+[01:16:22 INF] HTTP OPTIONS /api/Volunteers/me responded 204 in 0.0323 ms
+[01:16:22 INF] HTTP OPTIONS /api/Volunteers/me responded 204 in 0.0318 ms
+[01:16:22 INF] HTTP GET /api/Volunteers/me responded 404 in 0.5717 ms
+[01:16:22 INF] HTTP GET /api/Volunteers/me responded 404 in 0.3352 ms
+[01:16:22 INF] HTTP GET /uploads/posts/27da97a4-11db-455d-830e-3f80818752fb.jpg responded 304 in 2.1784 ms
+[01:23:16 INF] HTTP GET /Notification responded 101 in 555766.8584 ms
+[13:51:38 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 78.9377 ms
+[13:51:38 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.2701 ms
+[13:51:38 WRN] Failed to determine the https port for redirect.
+[13:51:39 INF] HTTP POST /Notification/negotiate responded 200 in 71.8308 ms
+[13:51:39 INF] HTTP POST /Notification/negotiate responded 200 in 162.5367 ms
+[13:51:46 INF] HTTP OPTIONS /api/Auth/login responded 204 in 0.1386 ms
+[13:51:48 INF] HTTP POST /api/Auth/login responded 200 in 2172.7963 ms
+[13:51:48 INF] HTTP GET /Notification responded 101 in 9733.6361 ms
+[13:51:48 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0902 ms
+[13:51:49 INF] HTTP POST /Notification/negotiate responded 200 in 124.5507 ms
+[13:52:16 INF] HTTP OPTIONS /api/Detection/detectionResult responded 204 in 10.3320 ms
+[13:52:21 INF] HTTP POST /api/Detection/detectionResult responded 200 in 5315.7020 ms
+[13:52:41 INF] HTTP OPTIONS /api/RecyclingTransaction/add responded 204 in 0.0983 ms
+[13:52:41 ERR] HTTP POST /api/RecyclingTransaction/add responded 500 in 241.9230 ms
+System.Exception: Material 'Metal' not found
+   at EcoWatchSystem.Services.RecyclingTransactionService.AddRecyclingTransaction(RecyclingTransactionDTO transactionDTO) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Services\RecyclingTransactionService.cs:line 84
+   at EcoWatchSystem.Controllers.RecyclingTransactionController.AddTransaction(RecyclingTransactionDTO dto) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Controllers\RecyclingTransactionController.cs:line 22
+   at lambda_method470(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[13:52:41 ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Material 'Metal' not found
+   at EcoWatchSystem.Services.RecyclingTransactionService.AddRecyclingTransaction(RecyclingTransactionDTO transactionDTO) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Services\RecyclingTransactionService.cs:line 84
+   at EcoWatchSystem.Controllers.RecyclingTransactionController.AddTransaction(RecyclingTransactionDTO dto) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Controllers\RecyclingTransactionController.cs:line 22
+   at lambda_method470(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[13:52:56 INF] HTTP OPTIONS /api/Auth/login responded 204 in 0.2327 ms
+[13:52:56 INF] HTTP POST /api/Auth/login responded 200 in 191.2494 ms
+[13:52:57 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.7944 ms
+[13:52:57 INF] HTTP GET /Notification responded 101 in 78058.1804 ms
+[13:52:57 INF] HTTP POST /Notification/negotiate responded 200 in 1.8062 ms
+[13:53:03 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.1486 ms
+[13:53:03 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.3883 ms
+[13:53:03 INF] HTTP GET /api/AdminRecycling/all responded 200 in 45.1250 ms
+[13:53:03 INF] HTTP GET /api/AdminRecycling/all responded 200 in 15.3849 ms
+[13:53:25 INF] HTTP GET /Notification responded 101 in 28443.0998 ms
+[13:53:26 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0280 ms
+[13:53:26 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0739 ms
+[13:53:26 INF] HTTP POST /Notification/negotiate responded 200 in 0.9161 ms
+[13:53:26 INF] HTTP POST /Notification/negotiate responded 200 in 0.5974 ms
+[13:53:29 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.1393 ms
+[13:53:29 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.1396 ms
+[13:53:29 INF] HTTP GET /api/AdminRecycling/all responded 200 in 9.4327 ms
+[13:53:29 INF] HTTP GET /api/AdminRecycling/all responded 200 in 6.6499 ms
+[14:07:56 INF] HTTP GET /Notification responded 101 in 869727.8933 ms
+[14:07:57 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 7.9855 ms
+[14:07:57 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 7.9876 ms
+[14:07:57 INF] HTTP POST /Notification/negotiate responded 200 in 30.8540 ms
+[14:07:57 INF] HTTP POST /Notification/negotiate responded 200 in 30.8515 ms
+[14:08:00 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.0231 ms
+[14:08:00 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.0607 ms
+[14:08:00 INF] HTTP GET /api/AdminRecycling/all responded 200 in 160.0466 ms
+[14:08:00 INF] HTTP GET /api/AdminRecycling/all responded 200 in 5.3374 ms
+[14:08:04 INF] HTTP GET /api/AdminRecycling/all responded 200 in 5.5672 ms
+[14:08:05 INF] HTTP GET /api/AdminRecycling/all responded 200 in 17.8493 ms
+[14:13:27 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 4.5863 ms
+[14:13:27 WRN] Failed to determine the https port for redirect.
+[14:13:27 INF] HTTP POST /Notification/negotiate responded 200 in 134.1492 ms
+[14:13:27 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.1080 ms
+[14:13:27 INF] HTTP POST /Notification/negotiate responded 200 in 2.9196 ms
+[14:13:29 INF] HTTP GET /Notification responded 101 in 2263.0849 ms
+[14:13:31 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.1110 ms
+[14:13:31 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0887 ms
+[14:13:31 INF] HTTP POST /Notification/negotiate responded 200 in 1.2055 ms
+[14:13:31 INF] HTTP POST /Notification/negotiate responded 200 in 1.4312 ms
+[14:13:36 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.1254 ms
+[14:13:36 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.1219 ms
+[14:13:37 INF] HTTP GET /api/AdminRecycling/all responded 200 in 232.2216 ms
+[14:13:37 INF] HTTP GET /api/AdminRecycling/all responded 200 in 32.5889 ms
+[14:13:49 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.1499 ms
+[14:13:49 INF] HTTP GET /api/AdminRecycling/all responded 200 in 17.1203 ms
+[14:13:59 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.0805 ms
+[14:13:59 INF] HTTP GET /api/AdminRecycling/all responded 200 in 9.4570 ms
+[14:14:07 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.1410 ms
+[14:14:07 INF] HTTP GET /api/AdminRecycling/all responded 200 in 7.6846 ms
+[14:15:34 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.1081 ms
+[14:15:34 INF] HTTP GET /api/AdminRecycling/all responded 200 in 8.0370 ms
+[14:20:49 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 4.3340 ms
+[14:20:49 WRN] Failed to determine the https port for redirect.
+[14:20:49 INF] HTTP POST /Notification/negotiate responded 200 in 181.3702 ms
+[14:20:49 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.1546 ms
+[14:20:49 INF] HTTP POST /Notification/negotiate responded 200 in 4.5478 ms
+[14:21:59 INF] HTTP GET /Notification responded 101 in 69110.2457 ms
+[14:22:00 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.5861 ms
+[14:22:00 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.8634 ms
+[14:22:00 INF] HTTP POST /Notification/negotiate responded 200 in 56.5606 ms
+[14:22:00 INF] HTTP POST /Notification/negotiate responded 200 in 3.1887 ms
+[14:22:08 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.1535 ms
+[14:22:08 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.0862 ms
+[14:22:10 INF] HTTP GET /api/AdminRecycling/all responded 200 in 357.3771 ms
+[14:22:10 INF] HTTP GET /api/AdminRecycling/all responded 200 in 30.1526 ms
+[14:22:16 INF] HTTP OPTIONS /api/AdminRecycling/changeStatus/1 responded 204 in 0.1069 ms
+[14:22:16 ERR] HTTP POST /api/AdminRecycling/changeStatus/1 responded 500 in 565.3883 ms
+System.Exception: Transaction not found
+   at EcoWatchSystem.Services.RecyclingTransactionService.ChangeRecyclingStatusByAdmin(Int32 transactionId, Boolean approve) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Services\RecyclingTransactionService.cs:line 138
+   at EcoWatchSystem.Controllers.AdminRecyclingController.ChangeStatus(Int32 transactionId, Boolean approve) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Controllers\AdminRecyclingController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[14:22:16 ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Transaction not found
+   at EcoWatchSystem.Services.RecyclingTransactionService.ChangeRecyclingStatusByAdmin(Int32 transactionId, Boolean approve) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Services\RecyclingTransactionService.cs:line 138
+   at EcoWatchSystem.Controllers.AdminRecyclingController.ChangeStatus(Int32 transactionId, Boolean approve) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Controllers\AdminRecyclingController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[14:28:32 INF] HTTP GET /Notification responded 101 in 391203.8727 ms
+[14:28:33 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 7.5059 ms
+[14:28:33 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 11.7119 ms
+[14:28:33 INF] HTTP POST /Notification/negotiate responded 200 in 57.2542 ms
+[14:28:33 INF] HTTP POST /Notification/negotiate responded 200 in 53.8362 ms
+[14:28:38 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.1816 ms
+[14:28:38 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.0945 ms
+[14:28:38 INF] HTTP GET /api/AdminRecycling/all responded 200 in 193.5074 ms
+[14:28:38 INF] HTTP GET /api/AdminRecycling/all responded 200 in 14.5884 ms
+[14:28:42 INF] HTTP OPTIONS /api/AdminRecycling/changeStatus/1 responded 204 in 0.1438 ms
+[14:28:42 ERR] HTTP POST /api/AdminRecycling/changeStatus/1 responded 500 in 185.3626 ms
+System.Exception: Transaction not found
+   at EcoWatchSystem.Services.RecyclingTransactionService.ChangeRecyclingStatusByAdmin(Int32 transactionId, Boolean approve) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Services\RecyclingTransactionService.cs:line 138
+   at EcoWatchSystem.Controllers.AdminRecyclingController.ChangeStatus(Int32 transactionId, Boolean approve) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Controllers\AdminRecyclingController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[14:28:42 ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Transaction not found
+   at EcoWatchSystem.Services.RecyclingTransactionService.ChangeRecyclingStatusByAdmin(Int32 transactionId, Boolean approve) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Services\RecyclingTransactionService.cs:line 138
+   at EcoWatchSystem.Controllers.AdminRecyclingController.ChangeStatus(Int32 transactionId, Boolean approve) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Controllers\AdminRecyclingController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[14:30:03 INF] HTTP POST /api/AdminRecycling/changeStatus/{transactionid} responded 400 in 103.1149 ms
+[14:32:21 INF] HTTP GET /Notification responded 101 in 226859.1531 ms
+[14:32:22 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 59.9053 ms
+[14:32:22 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 179.4187 ms
+[14:32:22 INF] HTTP POST /Notification/negotiate responded 200 in 39.5029 ms
+[14:32:22 INF] HTTP POST /Notification/negotiate responded 200 in 61.7839 ms
+[14:32:26 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.3518 ms
+[14:32:26 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.1452 ms
+[14:32:26 INF] HTTP GET /api/AdminRecycling/all responded 200 in 64.9292 ms
+[14:32:26 INF] HTTP GET /api/AdminRecycling/all responded 200 in 7.5268 ms
+[14:32:32 INF] HTTP OPTIONS /api/AdminRecycling/changeStatus/1 responded 204 in 0.0790 ms
+[14:32:32 ERR] HTTP POST /api/AdminRecycling/changeStatus/1 responded 500 in 118.7687 ms
+System.Exception: Transaction not found
+   at EcoWatchSystem.Services.RecyclingTransactionService.ChangeRecyclingStatusByAdmin(Int32 transactionId, Boolean approve) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Services\RecyclingTransactionService.cs:line 138
+   at EcoWatchSystem.Controllers.AdminRecyclingController.ChangeStatus(Int32 transactionId, Boolean approve) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Controllers\AdminRecyclingController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[14:32:32 ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Transaction not found
+   at EcoWatchSystem.Services.RecyclingTransactionService.ChangeRecyclingStatusByAdmin(Int32 transactionId, Boolean approve) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Services\RecyclingTransactionService.cs:line 138
+   at EcoWatchSystem.Controllers.AdminRecyclingController.ChangeStatus(Int32 transactionId, Boolean approve) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Controllers\AdminRecyclingController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[14:39:12 INF] HTTP GET /Notification responded 101 in 409714.8879 ms
+[14:39:14 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 2.0237 ms
+[14:39:14 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 1.8918 ms
+[14:39:14 INF] HTTP POST /Notification/negotiate responded 200 in 13.0925 ms
+[14:39:14 INF] HTTP POST /Notification/negotiate responded 200 in 37.7611 ms
+[14:39:19 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.1518 ms
+[14:39:19 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.1515 ms
+[14:39:21 INF] HTTP GET /api/AdminRecycling/all responded 200 in 1335.2687 ms
+[14:39:21 INF] HTTP GET /api/AdminRecycling/all responded 200 in 7.1648 ms
+[14:39:27 INF] HTTP OPTIONS /api/AdminRecycling/changeStatus/2 responded 204 in 0.1690 ms
+[14:39:28 INF] HTTP POST /api/AdminRecycling/changeStatus/2 responded 200 in 616.2903 ms
+[14:39:28 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.0510 ms
+[14:39:28 INF] HTTP GET /api/AdminRecycling/all responded 200 in 4.9991 ms
+[14:39:33 INF] HTTP GET /Notification responded 101 in 19063.8148 ms
+[14:39:34 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.1052 ms
+[14:39:34 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.1899 ms
+[14:39:34 INF] HTTP POST /Notification/negotiate responded 200 in 53.6812 ms
+[14:39:34 INF] HTTP POST /Notification/negotiate responded 200 in 3.1339 ms
+[14:39:37 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.0631 ms
+[14:39:37 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.0630 ms
+[14:39:37 INF] HTTP GET /api/AdminRecycling/all responded 200 in 22.7037 ms
+[14:39:37 INF] HTTP GET /api/AdminRecycling/all responded 200 in 4.3180 ms
+[14:51:01 INF] HTTP GET /Notification responded 101 in 687306.3878 ms
+[14:51:01 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 1.0070 ms
+[14:51:01 INF] HTTP POST /Notification/negotiate responded 200 in 14.1892 ms
+[14:51:20 INF] HTTP OPTIONS /api/Auth/login responded 204 in 0.5064 ms
+[14:51:22 INF] HTTP POST /api/Auth/login responded 200 in 1541.7683 ms
+[14:51:22 INF] HTTP GET /Notification responded 101 in 20880.0107 ms
+[14:51:22 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0737 ms
+[14:51:22 INF] HTTP POST /Notification/negotiate responded 200 in 3.5958 ms
+[14:59:50 INF] HTTP OPTIONS /api/Detection/detectionResult responded 204 in 8.5944 ms
+[14:59:50 WRN] Failed to determine the https port for redirect.
+[14:59:54 INF] HTTP POST /api/Detection/detectionResult responded 200 in 4061.7547 ms
+[15:00:07 INF] HTTP OPTIONS /api/RecyclingTransaction/add responded 204 in 2.2403 ms
+[15:00:08 INF] HTTP POST /api/RecyclingTransaction/add responded 200 in 1483.0888 ms
+[15:02:02 INF] HTTP OPTIONS /api/Detection/detectionResult responded 204 in 10.9226 ms
+[15:02:05 INF] HTTP POST /api/Detection/detectionResult responded 200 in 2957.2606 ms
+[15:02:12 INF] HTTP OPTIONS /api/RecyclingTransaction/add responded 204 in 0.2790 ms
+[15:02:13 ERR] HTTP POST /api/RecyclingTransaction/add responded 500 in 479.3685 ms
+System.Exception: Material 'Metal' not found
+   at EcoWatchSystem.Services.RecyclingTransactionService.AddRecyclingTransaction(RecyclingTransactionDTO transactionDTO) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Services\RecyclingTransactionService.cs:line 84
+   at EcoWatchSystem.Controllers.RecyclingTransactionController.AddTransaction(RecyclingTransactionDTO dto) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Controllers\RecyclingTransactionController.cs:line 22
+   at lambda_method119(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[15:02:13 ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Material 'Metal' not found
+   at EcoWatchSystem.Services.RecyclingTransactionService.AddRecyclingTransaction(RecyclingTransactionDTO transactionDTO) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Services\RecyclingTransactionService.cs:line 84
+   at EcoWatchSystem.Controllers.RecyclingTransactionController.AddTransaction(RecyclingTransactionDTO dto) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Controllers\RecyclingTransactionController.cs:line 22
+   at lambda_method119(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[15:02:33 INF] HTTP OPTIONS /api/RecyclingTransaction/add responded 204 in 0.2926 ms
+[15:02:34 ERR] HTTP POST /api/RecyclingTransaction/add responded 500 in 177.0173 ms
+System.Exception: Material 'Metal' not found
+   at EcoWatchSystem.Services.RecyclingTransactionService.AddRecyclingTransaction(RecyclingTransactionDTO transactionDTO) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Services\RecyclingTransactionService.cs:line 84
+   at EcoWatchSystem.Controllers.RecyclingTransactionController.AddTransaction(RecyclingTransactionDTO dto) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Controllers\RecyclingTransactionController.cs:line 22
+   at lambda_method119(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[15:02:34 ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Material 'Metal' not found
+   at EcoWatchSystem.Services.RecyclingTransactionService.AddRecyclingTransaction(RecyclingTransactionDTO transactionDTO) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Services\RecyclingTransactionService.cs:line 84
+   at EcoWatchSystem.Controllers.RecyclingTransactionController.AddTransaction(RecyclingTransactionDTO dto) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Controllers\RecyclingTransactionController.cs:line 22
+   at lambda_method119(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[15:09:13 INF] HTTP OPTIONS /api/RecyclingTransaction/add responded 204 in 6.0277 ms
+[15:09:13 WRN] Failed to determine the https port for redirect.
+[15:11:22 INF] HTTP OPTIONS /api/RecyclingTransaction/add responded 204 in 7.1440 ms
+[15:11:22 WRN] Failed to determine the https port for redirect.
+[15:11:24 INF] HTTP POST /api/RecyclingTransaction/add responded 200 in 1830.9247 ms
+[15:11:48 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.9992 ms
+[15:11:48 INF] HTTP POST /Notification/negotiate responded 200 in 33.1785 ms
+[15:12:06 INF] HTTP OPTIONS /api/Auth/login responded 204 in 0.2101 ms
+[15:12:07 INF] HTTP POST /api/Auth/login responded 200 in 962.3443 ms
+[15:12:07 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.1656 ms
+[15:12:07 INF] HTTP GET /Notification responded 101 in 18952.3686 ms
+[15:12:07 INF] HTTP POST /Notification/negotiate responded 200 in 2.7335 ms
+[15:12:13 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.3352 ms
+[15:12:13 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.1554 ms
+[15:12:13 INF] HTTP GET /api/AdminRecycling/all responded 200 in 78.2785 ms
+[15:12:13 INF] HTTP GET /api/AdminRecycling/all responded 200 in 41.9907 ms
+[15:17:06 INF] HTTP POST /api/rewards/admin responded 201 in 1417.9457 ms
+[15:18:58 INF] HTTP POST /api/rewards/admin responded 201 in 126.0836 ms
+[15:21:29 INF] HTTP POST /api/rewards/admin responded 201 in 73.5945 ms
+[15:26:01 INF] HTTP POST /api/rewards/admin responded 201 in 209.9145 ms
+[15:28:02 INF] HTTP POST /api/rewards/admin responded 201 in 63.4504 ms
+[15:30:09 INF] HTTP POST /api/rewards/admin responded 201 in 58.2297 ms
+[15:31:35 INF] HTTP POST /api/rewards/admin responded 201 in 68.8068 ms
+[15:32:01 INF] HTTP OPTIONS /api/UserPoints/userPoints responded 204 in 30.0701 ms
+[15:32:01 INF] HTTP OPTIONS /api/rewards responded 204 in 30.0850 ms
+[15:32:01 INF] HTTP OPTIONS /api/UserPoints/userPoints responded 204 in 0.1390 ms
+[15:32:01 INF] HTTP OPTIONS /api/rewards responded 204 in 0.0695 ms
+[15:32:01 INF] HTTP OPTIONS /api/UserPoints/userPoints responded 204 in 0.0744 ms
+[15:32:01 INF] HTTP OPTIONS /api/UserPoints/userPoints responded 204 in 0.2753 ms
+[15:32:02 INF] HTTP GET /api/rewards responded 200 in 300.2062 ms
+[15:32:02 INF] HTTP GET /api/rewards responded 200 in 15.7143 ms
+[15:32:02 INF] HTTP GET /api/UserPoints/userPoints responded 200 in 369.1594 ms
+[15:32:02 INF] HTTP GET /api/UserPoints/userPoints responded 200 in 22.5283 ms
+[15:32:02 INF] HTTP GET /api/UserPoints/userPoints responded 200 in 98.1881 ms
+[15:32:02 INF] HTTP GET /api/UserPoints/userPoints responded 200 in 14.2285 ms
+[15:32:02 INF] HTTP GET /logos/0fe57051-a9a1-4701-b5e1-4bf9a402083e.jpg responded 200 in 186.3648 ms
+[15:32:02 INF] HTTP GET /logos/00dd7462-433b-45a3-8a50-b19fb630343b.jpg responded 200 in 68.7829 ms
+[15:32:02 INF] HTTP GET /logos/543ffe0e-c83c-4fa9-8343-67f8540a0528.jpg responded 200 in 152.1918 ms
+[15:32:02 INF] HTTP GET /logos/83212a6b-6256-40d5-a2f2-bd6ef45600e9.jpg responded 200 in 189.9354 ms
+[15:32:02 INF] HTTP GET /logos/14c709dc-0104-49a0-b493-3a7986e9c9e6.jpg responded 200 in 185.5755 ms
+[15:32:02 INF] HTTP GET /logos/71fcd60e-db07-472a-af77-309e9796fbf9.jpg responded 200 in 54.1332 ms
+[15:32:02 INF] HTTP GET /logos/24604c22-2550-4790-9103-9c217ee51e9e.jpg responded 200 in 2.8186 ms
+[15:34:24 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 7.9525 ms
+[15:34:24 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 6.4589 ms
+[15:34:24 INF] HTTP POST /Notification/negotiate responded 200 in 16.7297 ms
+[15:34:24 INF] HTTP POST /Notification/negotiate responded 200 in 18.0912 ms
+[15:34:27 INF] HTTP OPTIONS /api/UserPoints/userPoints responded 204 in 0.3795 ms
+[15:34:27 INF] HTTP OPTIONS /api/rewards responded 204 in 0.1013 ms
+[15:34:27 INF] HTTP OPTIONS /api/UserPoints/userPoints responded 204 in 0.0771 ms
+[15:34:27 INF] HTTP OPTIONS /api/UserPoints/userPoints responded 204 in 0.0437 ms
+[15:34:27 INF] HTTP OPTIONS /api/rewards responded 204 in 0.0438 ms
+[15:34:27 INF] HTTP OPTIONS /api/UserPoints/userPoints responded 204 in 0.0539 ms
+[15:34:28 INF] HTTP GET /api/UserPoints/userPoints responded 200 in 247.3632 ms
+[15:34:28 INF] HTTP GET /api/rewards responded 200 in 251.4600 ms
+[15:34:28 INF] HTTP GET /api/UserPoints/userPoints responded 200 in 80.2035 ms
+[15:34:28 INF] HTTP GET /api/UserPoints/userPoints responded 200 in 15.8145 ms
+[15:34:28 INF] HTTP GET /api/UserPoints/userPoints responded 200 in 18.6743 ms
+[15:34:28 INF] HTTP GET /logos/543ffe0e-c83c-4fa9-8343-67f8540a0528.jpg responded 304 in 10.7170 ms
+[15:34:28 INF] HTTP GET /logos/0fe57051-a9a1-4701-b5e1-4bf9a402083e.jpg responded 304 in 11.2273 ms
+[15:34:28 INF] HTTP GET /logos/14c709dc-0104-49a0-b493-3a7986e9c9e6.jpg responded 304 in 35.2679 ms
+[15:34:28 INF] HTTP GET /logos/83212a6b-6256-40d5-a2f2-bd6ef45600e9.jpg responded 304 in 20.4344 ms
+[15:34:28 INF] HTTP GET /logos/00dd7462-433b-45a3-8a50-b19fb630343b.jpg responded 304 in 26.9383 ms
+[15:34:28 INF] HTTP GET /api/rewards responded 200 in 332.4099 ms
+[15:34:28 INF] HTTP GET /logos/71fcd60e-db07-472a-af77-309e9796fbf9.jpg responded 304 in 3.3177 ms
+[15:34:28 INF] HTTP GET /logos/24604c22-2550-4790-9103-9c217ee51e9e.jpg responded 304 in 9.2762 ms
+[15:34:49 INF] HTTP OPTIONS /api/rewards/redeem/1 responded 204 in 0.0941 ms
+[15:34:49 INF] HTTP POST /api/rewards/redeem/1 responded 401 in 44.5493 ms
+[15:38:06 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 11.6132 ms
+[15:38:06 INF] HTTP POST /Notification/negotiate responded 200 in 22.1093 ms
+[15:38:06 INF] HTTP GET /Notification responded 101 in 221903.8794 ms
+[15:38:25 INF] HTTP OPTIONS /api/Auth/login responded 204 in 1.5527 ms
+[15:38:25 INF] HTTP POST /api/Auth/login responded 200 in 775.7264 ms
+[15:38:25 INF] HTTP GET /Notification responded 101 in 19605.9958 ms
+[15:38:25 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.2226 ms
+[15:38:26 INF] HTTP POST /Notification/negotiate responded 200 in 11.8766 ms
+[15:38:34 INF] HTTP OPTIONS /api/UserPoints/userPoints responded 204 in 0.0749 ms
+[15:38:34 INF] HTTP OPTIONS /api/rewards responded 204 in 0.0347 ms
+[15:38:34 INF] HTTP OPTIONS /api/UserPoints/userPoints responded 204 in 0.1813 ms
+[15:38:34 INF] HTTP OPTIONS /api/UserPoints/userPoints responded 204 in 0.1035 ms
+[15:38:34 INF] HTTP OPTIONS /api/rewards responded 204 in 0.0651 ms
+[15:38:34 INF] HTTP OPTIONS /api/UserPoints/userPoints responded 204 in 0.0517 ms
+[15:38:34 INF] HTTP GET /api/UserPoints/userPoints responded 200 in 30.1378 ms
+[15:38:34 INF] HTTP GET /api/rewards responded 200 in 25.9633 ms
+[15:38:34 INF] HTTP GET /api/UserPoints/userPoints responded 200 in 11.7477 ms
+[15:38:34 INF] HTTP GET /api/rewards responded 200 in 10.7488 ms
+[15:38:34 INF] HTTP GET /api/UserPoints/userPoints responded 200 in 13.3774 ms
+[15:38:34 INF] HTTP GET /logos/14c709dc-0104-49a0-b493-3a7986e9c9e6.jpg responded 304 in 15.9774 ms
+[15:38:34 INF] HTTP GET /logos/0fe57051-a9a1-4701-b5e1-4bf9a402083e.jpg responded 304 in 15.9771 ms
+[15:38:34 INF] HTTP GET /logos/543ffe0e-c83c-4fa9-8343-67f8540a0528.jpg responded 304 in 13.4068 ms
+[15:38:34 INF] HTTP GET /logos/00dd7462-433b-45a3-8a50-b19fb630343b.jpg responded 304 in 11.6555 ms
+[15:38:34 INF] HTTP GET /logos/83212a6b-6256-40d5-a2f2-bd6ef45600e9.jpg responded 304 in 15.8053 ms
+[15:38:34 INF] HTTP GET /api/UserPoints/userPoints responded 200 in 26.5750 ms
+[15:38:34 INF] HTTP GET /logos/71fcd60e-db07-472a-af77-309e9796fbf9.jpg responded 304 in 1.1579 ms
+[15:38:34 INF] HTTP GET /logos/24604c22-2550-4790-9103-9c217ee51e9e.jpg responded 304 in 0.5163 ms
+[15:38:42 INF] HTTP OPTIONS /api/rewards/redeem/1 responded 204 in 0.1993 ms
+[15:38:42 INF] HTTP POST /api/rewards/redeem/1 responded 200 in 497.6427 ms
+[15:38:42 INF] HTTP OPTIONS /api/rewards responded 204 in 0.0475 ms
+[15:38:42 INF] HTTP GET /api/rewards responded 200 in 12.3906 ms
+[15:38:42 INF] HTTP OPTIONS /api/UserPoints/userPoints responded 204 in 0.0113 ms
+[15:38:42 INF] HTTP OPTIONS /api/UserPoints/userPoints responded 204 in 0.0514 ms
+[15:38:42 INF] HTTP GET /api/UserPoints/userPoints responded 200 in 16.6503 ms
+[15:38:42 INF] HTTP GET /api/UserPoints/userPoints responded 200 in 10.5169 ms
+[15:40:24 INF] HTTP GET /Notification responded 101 in 118704.6365 ms
+[15:40:24 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.1588 ms
+[15:40:24 INF] HTTP POST /Notification/negotiate responded 200 in 1.3241 ms
+[15:41:56 INF] HTTP POST /api/Auth/register responded 200 in 715.1356 ms
+[15:42:59 INF] HTTP OPTIONS /api/Auth/login responded 204 in 0.0378 ms
+[15:42:59 INF] HTTP POST /api/Auth/login responded 200 in 159.6515 ms
+[15:42:59 INF] HTTP GET /Notification responded 101 in 154982.7765 ms
+[15:42:59 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0871 ms
+[15:42:59 INF] HTTP POST /Notification/negotiate responded 200 in 1.4966 ms
+[15:43:05 INF] HTTP OPTIONS /api/rewards responded 204 in 0.0471 ms
+[15:43:05 INF] HTTP OPTIONS /api/UserPoints/userPoints responded 204 in 0.0473 ms
+[15:43:05 INF] HTTP OPTIONS /api/UserPoints/userPoints responded 204 in 0.0525 ms
+[15:43:05 INF] HTTP OPTIONS /api/UserPoints/userPoints responded 204 in 0.0087 ms
+[15:43:05 INF] HTTP OPTIONS /api/rewards responded 204 in 0.0105 ms
+[15:43:05 INF] HTTP OPTIONS /api/UserPoints/userPoints responded 204 in 0.0257 ms
+[15:43:05 INF] HTTP GET /api/rewards responded 200 in 23.7742 ms
+[15:43:05 INF] HTTP GET /api/UserPoints/userPoints responded 200 in 15.3214 ms
+[15:43:05 INF] HTTP GET /api/UserPoints/userPoints responded 200 in 10.0876 ms
+[15:43:05 INF] HTTP GET /logos/14c709dc-0104-49a0-b493-3a7986e9c9e6.jpg responded 304 in 1.5566 ms
+[15:43:05 INF] HTTP GET /api/rewards responded 200 in 20.0132 ms
+[15:43:05 INF] HTTP GET /logos/0fe57051-a9a1-4701-b5e1-4bf9a402083e.jpg responded 304 in 2.3518 ms
+[15:43:05 INF] HTTP GET /api/UserPoints/userPoints responded 200 in 22.4560 ms
+[15:43:05 INF] HTTP GET /logos/83212a6b-6256-40d5-a2f2-bd6ef45600e9.jpg responded 304 in 0.4380 ms
+[15:43:05 INF] HTTP GET /logos/543ffe0e-c83c-4fa9-8343-67f8540a0528.jpg responded 304 in 1.6776 ms
+[15:43:05 INF] HTTP GET /api/UserPoints/userPoints responded 200 in 4.7251 ms
+[15:43:05 INF] HTTP GET /logos/00dd7462-433b-45a3-8a50-b19fb630343b.jpg responded 304 in 7.4754 ms
+[15:43:05 INF] HTTP GET /logos/71fcd60e-db07-472a-af77-309e9796fbf9.jpg responded 304 in 1.3729 ms
+[15:43:05 INF] HTTP GET /logos/24604c22-2550-4790-9103-9c217ee51e9e.jpg responded 304 in 0.3197 ms
+[15:43:16 INF] HTTP OPTIONS /api/RecyclingCompany/all responded 204 in 0.0394 ms
+[15:43:16 INF] HTTP OPTIONS /api/RecyclingCompany/all responded 204 in 1.0288 ms
+[15:43:16 INF] HTTP GET /api/RecyclingCompany/all responded 200 in 284.8446 ms
+[15:43:16 INF] HTTP GET /api/RecyclingCompany/all responded 200 in 17.0588 ms
+[15:43:16 INF] HTTP OPTIONS /api/contract/user/ebf1231c-6dda-449a-ba13-9fef0381aa08 responded 204 in 0.0314 ms
+[15:43:16 INF] HTTP GET /api/contract/user/ebf1231c-6dda-449a-ba13-9fef0381aa08 responded 404 in 1.3620 ms
+[15:43:16 INF] HTTP OPTIONS /api/Contract/GetByUserAndCompany responded 204 in 0.0365 ms
+[15:43:16 INF] HTTP GET /api/Contract/GetByUserAndCompany responded 404 in 68.8960 ms
+[15:43:37 INF] HTTP OPTIONS /api/Auth/login responded 204 in 0.0664 ms
+[15:43:37 INF] HTTP POST /api/Auth/login responded 200 in 101.3939 ms
+[15:43:37 INF] HTTP GET /Notification responded 101 in 1890381.2804 ms
+[15:43:37 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0428 ms
+[15:43:37 INF] HTTP POST /Notification/negotiate responded 200 in 0.6443 ms
+[15:43:49 INF] HTTP OPTIONS /api/RecyclingCompany/all responded 204 in 0.0802 ms
+[15:43:49 INF] HTTP OPTIONS /api/RecyclingCompany/all responded 204 in 0.0275 ms
+[15:43:49 INF] HTTP GET /api/RecyclingCompany/all responded 200 in 16.7195 ms
+[15:43:49 INF] HTTP GET /api/RecyclingCompany/all responded 200 in 6.7706 ms
+[15:43:49 INF] HTTP GET /logos/6e216873-1cb7-4b91-9066-9baea88f54d0.jpg responded 404 in 5.0588 ms
+[15:43:49 INF] HTTP GET /logos/c10139ab-bfce-41a9-987f-73a60bbe1965.jpg responded 404 in 5.2800 ms
+[15:46:28 INF] HTTP OPTIONS /api/RecyclingCompany/add responded 204 in 0.0581 ms
+[15:46:28 INF] HTTP POST /api/RecyclingCompany/add responded 200 in 274.7467 ms
+[15:46:31 INF] HTTP OPTIONS /api/RecyclingCompany/all responded 204 in 0.0961 ms
+[15:46:31 INF] HTTP GET /api/RecyclingCompany/all responded 200 in 15.4881 ms
+[15:46:31 INF] HTTP GET /logos/ccfa8971-b009-4881-9495-38c71f4b25ba.jpg responded 200 in 6.6796 ms
+[15:49:28 INF] HTTP OPTIONS /api/RecyclingCompany/add responded 204 in 2.3410 ms
+[15:49:29 INF] HTTP POST /api/RecyclingCompany/add responded 200 in 113.9951 ms
+[15:49:30 INF] HTTP OPTIONS /api/RecyclingCompany/all responded 204 in 0.0728 ms
+[15:49:30 INF] HTTP GET /api/RecyclingCompany/all responded 200 in 24.5465 ms
+[15:49:30 INF] HTTP GET /logos/d2b8aa9b-8d83-4237-8b62-94e02c7ea2e2.jpg responded 200 in 40.1365 ms
+[15:50:50 INF] HTTP OPTIONS /api/RecyclingCompany/add responded 204 in 0.0800 ms
+[15:50:50 INF] HTTP POST /api/RecyclingCompany/add responded 200 in 80.4969 ms
+[15:50:51 INF] HTTP OPTIONS /api/RecyclingCompany/all responded 204 in 0.0755 ms
+[15:50:51 INF] HTTP GET /api/RecyclingCompany/all responded 200 in 15.9458 ms
+[15:50:51 INF] HTTP GET /logos/100245a4-99b9-44c9-8971-2ef2a55fea47.jpg responded 200 in 8.8447 ms
+[15:52:23 INF] HTTP OPTIONS /api/RecyclingCompany/add responded 204 in 0.0482 ms
+[15:52:23 INF] HTTP POST /api/RecyclingCompany/add responded 200 in 43.3779 ms
+[15:52:25 INF] HTTP OPTIONS /api/RecyclingCompany/all responded 204 in 0.0517 ms
+[15:52:25 INF] HTTP GET /api/RecyclingCompany/all responded 200 in 16.9098 ms
+[15:52:25 INF] HTTP GET /logos/a1d528fd-1b7b-49c4-a1c1-058ae160c262.png responded 200 in 9.3592 ms
+[15:53:00 INF] HTTP GET /Notification responded 101 in 600616.5878 ms
+[15:53:01 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0866 ms
+[15:53:01 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0834 ms
+[15:53:01 INF] HTTP POST /Notification/negotiate responded 200 in 7.1552 ms
+[15:53:01 INF] HTTP POST /Notification/negotiate responded 200 in 6.8571 ms
+[15:53:10 INF] HTTP OPTIONS /api/RecyclingCompany/all responded 204 in 0.0575 ms
+[15:53:10 INF] HTTP OPTIONS /api/RecyclingCompany/all responded 204 in 0.9290 ms
+[15:53:11 INF] HTTP GET /api/RecyclingCompany/all responded 200 in 17.7154 ms
+[15:53:11 INF] HTTP GET /api/RecyclingCompany/all responded 200 in 6.1711 ms
+[15:53:11 INF] HTTP OPTIONS /api/contract/user/ebf1231c-6dda-449a-ba13-9fef0381aa08 responded 204 in 0.7262 ms
+[15:53:11 INF] HTTP GET /api/contract/user/ebf1231c-6dda-449a-ba13-9fef0381aa08 responded 404 in 0.4801 ms
+[15:53:11 INF] HTTP OPTIONS /api/Contract/GetByUserAndCompany responded 204 in 0.0550 ms
+[15:53:11 INF] HTTP GET /api/Contract/GetByUserAndCompany responded 404 in 48.0203 ms
+[15:53:47 INF] HTTP GET /Notification responded 101 in 45887.3216 ms
+[15:53:47 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0826 ms
+[15:53:47 INF] HTTP POST /Notification/negotiate responded 200 in 8.9997 ms
+[15:53:55 INF] HTTP OPTIONS /api/Auth/login responded 204 in 0.0506 ms
+[15:53:55 INF] HTTP POST /api/Auth/login responded 200 in 233.2696 ms
+[15:53:55 INF] HTTP GET /Notification responded 101 in 8202.7561 ms
+[15:53:55 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0445 ms
+[15:53:55 INF] HTTP POST /Notification/negotiate responded 200 in 1.0346 ms
+[15:53:59 INF] HTTP OPTIONS /api/RecyclingCompany/all responded 204 in 0.0439 ms
+[15:53:59 INF] HTTP OPTIONS /api/RecyclingCompany/all responded 204 in 0.0127 ms
+[15:53:59 INF] HTTP GET /api/RecyclingCompany/all responded 200 in 14.0753 ms
+[15:53:59 INF] HTTP GET /api/RecyclingCompany/all responded 200 in 9.2046 ms
+[15:53:59 INF] HTTP OPTIONS /api/contract/user/ebf1231c-6dda-449a-ba13-9fef0381aa08 responded 204 in 0.0216 ms
+[15:53:59 INF] HTTP GET /api/contract/user/ebf1231c-6dda-449a-ba13-9fef0381aa08 responded 404 in 0.4041 ms
+[15:53:59 INF] HTTP OPTIONS /api/Contract/GetByUserAndCompany responded 204 in 0.0576 ms
+[15:53:59 INF] HTTP GET /api/Contract/GetByUserAndCompany responded 404 in 9.2666 ms
+[15:54:07 INF] HTTP OPTIONS /api/Contract responded 204 in 0.0335 ms
+[15:54:07 INF] HTTP POST /api/Contract responded 200 in 183.9498 ms
+[15:54:08 INF] HTTP OPTIONS /api/contract/user/ebf1231c-6dda-449a-ba13-9fef0381aa08 responded 204 in 0.0337 ms
+[15:54:08 INF] HTTP GET /api/contract/user/ebf1231c-6dda-449a-ba13-9fef0381aa08 responded 404 in 0.3091 ms
+[15:54:08 INF] HTTP OPTIONS /api/Contract/GetByUserAndCompany responded 204 in 0.2375 ms
+[15:54:08 INF] HTTP GET /api/Contract/GetByUserAndCompany responded 404 in 5.2677 ms
+[15:54:09 INF] HTTP OPTIONS /api/Contract/GetByUserAndCompany responded 204 in 0.0300 ms
+[15:54:09 INF] HTTP OPTIONS /api/Contract/GetByUserAndCompany responded 204 in 0.0119 ms
+[15:54:09 INF] HTTP GET /api/Contract/GetByUserAndCompany responded 200 in 8.6089 ms
+[15:54:09 INF] HTTP GET /api/Contract/GetByUserAndCompany responded 200 in 2.5170 ms
+[15:54:15 INF] HTTP OPTIONS /api/RecyclingCompany/all responded 204 in 0.0338 ms
+[15:54:15 INF] HTTP OPTIONS /api/RecyclingCompany/all responded 204 in 0.0127 ms
+[15:54:15 INF] HTTP GET /api/RecyclingCompany/all responded 200 in 11.0954 ms
+[15:54:15 INF] HTTP GET /api/RecyclingCompany/all responded 200 in 4.4898 ms
+[15:54:15 INF] HTTP OPTIONS /api/contract/user/ebf1231c-6dda-449a-ba13-9fef0381aa08 responded 204 in 0.0249 ms
+[15:54:15 INF] HTTP GET /api/contract/user/ebf1231c-6dda-449a-ba13-9fef0381aa08 responded 404 in 0.3357 ms
+[15:54:15 INF] HTTP OPTIONS /api/Contract/GetByUserAndCompany responded 204 in 0.0565 ms
+[15:54:15 INF] HTTP GET /api/Contract/GetByUserAndCompany responded 404 in 7.0481 ms
+[15:56:22 INF] HTTP OPTIONS /api/Detection/detectionResult responded 204 in 1.5521 ms
+[15:56:25 INF] HTTP POST /api/Detection/detectionResult responded 200 in 2894.9416 ms
+[15:56:28 INF] HTTP OPTIONS /api/RecyclingTransaction/add responded 204 in 0.0656 ms
+[15:56:28 ERR] HTTP POST /api/RecyclingTransaction/add responded 500 in 203.1170 ms
+System.UnauthorizedAccessException: This contract does not belong to the user
+   at EcoWatchSystem.Services.RecyclingTransactionService.AddRecyclingTransaction(RecyclingTransactionDTO transactionDTO) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Services\RecyclingTransactionService.cs:line 62
+   at EcoWatchSystem.Controllers.RecyclingTransactionController.AddTransaction(RecyclingTransactionDTO dto) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Controllers\RecyclingTransactionController.cs:line 22
+   at lambda_method110(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[15:56:29 ERR] An unhandled exception has occurred while executing the request.
+System.UnauthorizedAccessException: This contract does not belong to the user
+   at EcoWatchSystem.Services.RecyclingTransactionService.AddRecyclingTransaction(RecyclingTransactionDTO transactionDTO) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Services\RecyclingTransactionService.cs:line 62
+   at EcoWatchSystem.Controllers.RecyclingTransactionController.AddTransaction(RecyclingTransactionDTO dto) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Controllers\RecyclingTransactionController.cs:line 22
+   at lambda_method110(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[15:56:45 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.0420 ms
+[15:56:45 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.0201 ms
+[15:56:45 INF] HTTP GET /api/AdminRecycling/all responded 200 in 17.3648 ms
+[15:56:45 INF] HTTP GET /api/AdminRecycling/all responded 200 in 5.3306 ms
+[15:56:50 INF] HTTP GET /Notification responded 101 in 792842.4036 ms
+[15:56:51 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0360 ms
+[15:56:51 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0118 ms
+[15:56:51 INF] HTTP POST /Notification/negotiate responded 200 in 1.1104 ms
+[15:56:51 INF] HTTP POST /Notification/negotiate responded 200 in 0.3748 ms
+[15:56:54 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.0862 ms
+[15:56:54 INF] HTTP OPTIONS /api/AdminRecycling/all responded 204 in 0.0948 ms
+[15:56:55 INF] HTTP GET /api/AdminRecycling/all responded 200 in 95.9368 ms
+[15:56:55 INF] HTTP GET /api/AdminRecycling/all responded 200 in 10.3068 ms
+[15:58:27 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0865 ms
+[15:58:27 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.1343 ms
+[15:58:27 INF] HTTP POST /Notification/negotiate responded 200 in 0.9942 ms
+[15:58:27 INF] HTTP POST /Notification/negotiate responded 200 in 5.5918 ms
+[15:58:34 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.0345 ms
+[15:58:34 INF] HTTP POST /Notification/negotiate responded 200 in 0.7185 ms
+[15:58:34 INF] HTTP GET /Notification responded 101 in 2657.0462 ms
+[15:58:47 INF] HTTP OPTIONS /api/Auth/login responded 204 in 0.3658 ms
+[15:58:47 INF] HTTP POST /api/Auth/login responded 200 in 235.7815 ms
+[15:58:47 INF] HTTP GET /Notification responded 101 in 13247.1840 ms
+[15:58:47 INF] HTTP OPTIONS /Notification/negotiate responded 204 in 0.1037 ms
+[15:58:47 INF] HTTP POST /Notification/negotiate responded 200 in 1.3533 ms
+[15:59:49 INF] HTTP OPTIONS /api/Detection/detectionResult responded 204 in 0.0807 ms
+[15:59:51 INF] HTTP POST /api/Detection/detectionResult responded 200 in 2263.3676 ms
+[15:59:54 INF] HTTP OPTIONS /api/RecyclingTransaction/add responded 204 in 0.1132 ms
+[15:59:54 ERR] HTTP POST /api/RecyclingTransaction/add responded 500 in 121.2993 ms
+System.UnauthorizedAccessException: This contract does not belong to the user
+   at EcoWatchSystem.Services.RecyclingTransactionService.AddRecyclingTransaction(RecyclingTransactionDTO transactionDTO) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Services\RecyclingTransactionService.cs:line 62
+   at EcoWatchSystem.Controllers.RecyclingTransactionController.AddTransaction(RecyclingTransactionDTO dto) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Controllers\RecyclingTransactionController.cs:line 22
+   at lambda_method110(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[15:59:54 ERR] An unhandled exception has occurred while executing the request.
+System.UnauthorizedAccessException: This contract does not belong to the user
+   at EcoWatchSystem.Services.RecyclingTransactionService.AddRecyclingTransaction(RecyclingTransactionDTO transactionDTO) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Services\RecyclingTransactionService.cs:line 62
+   at EcoWatchSystem.Controllers.RecyclingTransactionController.AddTransaction(RecyclingTransactionDTO dto) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Controllers\RecyclingTransactionController.cs:line 22
+   at lambda_method110(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[16:08:09 INF] HTTP OPTIONS /api/RecyclingTransaction/add responded 204 in 5.0890 ms
+[16:08:11 INF] HTTP GET /Notification responded 101 in 679877.5418 ms
+[16:08:11 ERR] HTTP POST /api/RecyclingTransaction/add responded 500 in 2536.7900 ms
+System.UnauthorizedAccessException: This contract does not belong to the user
+   at EcoWatchSystem.Services.RecyclingTransactionService.AddRecyclingTransaction(RecyclingTransactionDTO transactionDTO) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Services\RecyclingTransactionService.cs:line 62
+   at EcoWatchSystem.Controllers.RecyclingTransactionController.AddTransaction(RecyclingTransactionDTO dto) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Controllers\RecyclingTransactionController.cs:line 22
+   at lambda_method110(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[16:08:11 ERR] An unhandled exception has occurred while executing the request.
+System.UnauthorizedAccessException: This contract does not belong to the user
+   at EcoWatchSystem.Services.RecyclingTransactionService.AddRecyclingTransaction(RecyclingTransactionDTO transactionDTO) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Services\RecyclingTransactionService.cs:line 62
+   at EcoWatchSystem.Controllers.RecyclingTransactionController.AddTransaction(RecyclingTransactionDTO dto) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Controllers\RecyclingTransactionController.cs:line 22
+   at lambda_method110(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[16:10:36 INF] HTTP OPTIONS /api/RecyclingCompany/all responded 204 in 0.3068 ms
+[16:10:36 INF] HTTP OPTIONS /api/RecyclingCompany/all responded 204 in 0.2261 ms
+[16:10:36 INF] HTTP GET /api/RecyclingCompany/all responded 200 in 86.7498 ms
+[16:10:36 INF] HTTP GET /api/RecyclingCompany/all responded 200 in 21.1091 ms
+[16:10:36 INF] HTTP OPTIONS /api/contract/user/ebf1231c-6dda-449a-ba13-9fef0381aa08 responded 204 in 0.0497 ms
+[16:10:36 INF] HTTP GET /api/contract/user/ebf1231c-6dda-449a-ba13-9fef0381aa08 responded 404 in 0.8398 ms
+[16:10:36 INF] HTTP OPTIONS /api/Contract/GetByUserAndCompany responded 204 in 0.0231 ms
+[16:10:36 INF] HTTP GET /api/Contract/GetByUserAndCompany responded 404 in 23.5183 ms
+[16:10:40 INF] HTTP OPTIONS /api/Contract responded 204 in 0.0615 ms
+[16:10:40 INF] HTTP POST /api/Contract responded 200 in 114.0017 ms
+[16:10:41 INF] HTTP GET /api/contract/user/ebf1231c-6dda-449a-ba13-9fef0381aa08 responded 404 in 0.5165 ms
+[16:10:41 INF] HTTP GET /api/Contract/GetByUserAndCompany responded 404 in 7.4170 ms
+[16:10:41 INF] HTTP POST /api/Contract responded 200 in 46.0135 ms
+[16:10:42 INF] HTTP OPTIONS /api/Contract/GetByUserAndCompany responded 204 in 0.0315 ms
+[16:10:42 INF] HTTP OPTIONS /api/Contract/GetByUserAndCompany responded 204 in 0.0315 ms
+[16:10:42 INF] HTTP GET /api/Contract/GetByUserAndCompany responded 200 in 6.2515 ms
+[16:10:42 INF] HTTP GET /api/Contract/GetByUserAndCompany responded 200 in 4.4813 ms
+[16:10:42 INF] HTTP OPTIONS /api/contract/user/ebf1231c-6dda-449a-ba13-9fef0381aa08 responded 204 in 0.0374 ms
+[16:10:42 INF] HTTP GET /api/contract/user/ebf1231c-6dda-449a-ba13-9fef0381aa08 responded 404 in 0.2586 ms
+[16:10:42 INF] HTTP OPTIONS /api/Contract/GetByUserAndCompany responded 204 in 0.0192 ms
+[16:10:42 INF] HTTP GET /api/Contract/GetByUserAndCompany responded 404 in 10.1850 ms
+[16:10:43 INF] HTTP OPTIONS /api/Contract/GetByUserAndCompany responded 204 in 0.0721 ms
+[16:10:43 INF] HTTP GET /api/Contract/GetByUserAndCompany responded 200 in 7.8989 ms
+[16:10:45 INF] HTTP OPTIONS /api/RecyclingCompany/all responded 204 in 0.0147 ms
+[16:10:45 INF] HTTP OPTIONS /api/RecyclingCompany/all responded 204 in 0.0376 ms
+[16:10:45 INF] HTTP GET /api/RecyclingCompany/all responded 200 in 12.6092 ms
+[16:10:45 INF] HTTP GET /api/RecyclingCompany/all responded 200 in 7.5784 ms
+[16:10:45 INF] HTTP GET /api/contract/user/ebf1231c-6dda-449a-ba13-9fef0381aa08 responded 404 in 1.1168 ms
+[16:10:45 INF] HTTP GET /api/Contract/GetByUserAndCompany responded 404 in 6.7918 ms
+[16:10:48 INF] HTTP OPTIONS /api/Contract responded 204 in 0.0625 ms
+[16:10:49 INF] HTTP POST /api/Contract responded 200 in 29.1040 ms
+[16:10:50 INF] HTTP OPTIONS /api/contract/user/ebf1231c-6dda-449a-ba13-9fef0381aa08 responded 204 in 0.0285 ms
+[16:10:50 INF] HTTP GET /api/contract/user/ebf1231c-6dda-449a-ba13-9fef0381aa08 responded 404 in 0.2798 ms
+[16:10:50 INF] HTTP OPTIONS /api/Contract/GetByUserAndCompany responded 204 in 0.0172 ms
+[16:10:50 INF] HTTP GET /api/Contract/GetByUserAndCompany responded 404 in 4.9817 ms
+[16:10:51 INF] HTTP OPTIONS /api/Contract/GetByUserAndCompany responded 204 in 0.0420 ms
+[16:10:51 INF] HTTP OPTIONS /api/Contract/GetByUserAndCompany responded 204 in 0.0474 ms
+[16:10:51 ERR] HTTP POST /api/Contract responded 500 in 148.7434 ms
+System.Exception: Contract already exists
+   at EcoWatchSystem.Services.ContractService.CreateContractAsync(CreateContractDTO dto) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Services\ContractService.cs:line 46
+   at EcoWatchSystem.Controllers.ContractController.Create(CreateContractDTO dto) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Controllers\ContractController.cs:line 27
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[16:10:51 INF] HTTP GET /api/Contract/GetByUserAndCompany responded 200 in 5.3494 ms
+[16:10:51 INF] HTTP GET /api/Contract/GetByUserAndCompany responded 200 in 7.0202 ms
+[16:10:51 ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Contract already exists
+   at EcoWatchSystem.Services.ContractService.CreateContractAsync(CreateContractDTO dto) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Services\ContractService.cs:line 46
+   at EcoWatchSystem.Controllers.ContractController.Create(CreateContractDTO dto) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Controllers\ContractController.cs:line 27
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[16:10:53 INF] HTTP OPTIONS /api/RecyclingCompany/all responded 204 in 0.0268 ms
+[16:10:53 INF] HTTP OPTIONS /api/RecyclingCompany/all responded 204 in 0.0328 ms
+[16:10:53 INF] HTTP GET /api/RecyclingCompany/all responded 200 in 12.6922 ms
+[16:10:53 INF] HTTP GET /api/RecyclingCompany/all responded 200 in 6.2194 ms
+[16:10:53 INF] HTTP GET /api/contract/user/ebf1231c-6dda-449a-ba13-9fef0381aa08 responded 404 in 1.0279 ms
+[16:10:53 INF] HTTP GET /api/Contract/GetByUserAndCompany responded 404 in 6.2404 ms
+[16:10:58 INF] HTTP OPTIONS /api/Contract responded 204 in 0.0293 ms
+[16:10:58 ERR] HTTP POST /api/Contract responded 500 in 113.2105 ms
+System.Exception: Contract already exists
+   at EcoWatchSystem.Services.ContractService.CreateContractAsync(CreateContractDTO dto) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Services\ContractService.cs:line 46
+   at EcoWatchSystem.Controllers.ContractController.Create(CreateContractDTO dto) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Controllers\ContractController.cs:line 27
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[16:10:58 ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Contract already exists
+   at EcoWatchSystem.Services.ContractService.CreateContractAsync(CreateContractDTO dto) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Services\ContractService.cs:line 46
+   at EcoWatchSystem.Controllers.ContractController.Create(CreateContractDTO dto) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Controllers\ContractController.cs:line 27
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[16:11:03 INF] HTTP POST /api/Contract responded 200 in 28.6115 ms
+[16:11:04 INF] HTTP OPTIONS /api/contract/user/ebf1231c-6dda-449a-ba13-9fef0381aa08 responded 204 in 0.0247 ms
+[16:11:04 INF] HTTP GET /api/contract/user/ebf1231c-6dda-449a-ba13-9fef0381aa08 responded 404 in 0.2281 ms
+[16:11:04 INF] HTTP OPTIONS /api/Contract/GetByUserAndCompany responded 204 in 0.0314 ms
+[16:11:04 INF] HTTP GET /api/Contract/GetByUserAndCompany responded 404 in 5.4936 ms
+[16:11:05 INF] HTTP OPTIONS /api/Contract/GetByUserAndCompany responded 204 in 0.0573 ms
+[16:11:05 INF] HTTP OPTIONS /api/Contract/GetByUserAndCompany responded 204 in 0.0132 ms
+[16:11:05 INF] HTTP GET /api/Contract/GetByUserAndCompany responded 200 in 8.2827 ms
+[16:11:05 INF] HTTP GET /api/Contract/GetByUserAndCompany responded 200 in 3.8100 ms
+[16:11:06 INF] HTTP OPTIONS /api/RecyclingCompany/all responded 204 in 0.0573 ms
+[16:11:06 INF] HTTP OPTIONS /api/RecyclingCompany/all responded 204 in 0.0115 ms
+[16:11:06 INF] HTTP GET /api/RecyclingCompany/all responded 200 in 10.9164 ms
+[16:11:06 INF] HTTP GET /api/RecyclingCompany/all responded 200 in 4.1770 ms
+[16:11:06 INF] HTTP GET /api/contract/user/ebf1231c-6dda-449a-ba13-9fef0381aa08 responded 404 in 0.2626 ms
+[16:11:06 INF] HTTP GET /api/Contract/GetByUserAndCompany responded 404 in 8.9580 ms
+[16:11:11 INF] HTTP OPTIONS /api/Contract responded 204 in 0.0403 ms
+[16:11:11 ERR] HTTP POST /api/Contract responded 500 in 82.2657 ms
+System.Exception: Contract already exists
+   at EcoWatchSystem.Services.ContractService.CreateContractAsync(CreateContractDTO dto) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Services\ContractService.cs:line 46
+   at EcoWatchSystem.Controllers.ContractController.Create(CreateContractDTO dto) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Controllers\ContractController.cs:line 27
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[16:11:11 ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Contract already exists
+   at EcoWatchSystem.Services.ContractService.CreateContractAsync(CreateContractDTO dto) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Services\ContractService.cs:line 46
+   at EcoWatchSystem.Controllers.ContractController.Create(CreateContractDTO dto) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Controllers\ContractController.cs:line 27
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[16:11:13 INF] HTTP POST /api/Contract responded 200 in 29.3086 ms
+[16:11:14 INF] HTTP OPTIONS /api/contract/user/ebf1231c-6dda-449a-ba13-9fef0381aa08 responded 204 in 0.0255 ms
+[16:11:14 INF] HTTP GET /api/contract/user/ebf1231c-6dda-449a-ba13-9fef0381aa08 responded 404 in 0.3473 ms
+[16:11:14 INF] HTTP OPTIONS /api/Contract/GetByUserAndCompany responded 204 in 0.2076 ms
+[16:11:14 INF] HTTP GET /api/Contract/GetByUserAndCompany responded 404 in 4.2411 ms
+[16:11:15 INF] HTTP OPTIONS /api/Contract/GetByUserAndCompany responded 204 in 0.0412 ms
+[16:11:15 INF] HTTP OPTIONS /api/Contract/GetByUserAndCompany responded 204 in 0.0157 ms
+[16:11:15 INF] HTTP GET /api/Contract/GetByUserAndCompany responded 200 in 5.9795 ms
+[16:11:15 INF] HTTP GET /api/Contract/GetByUserAndCompany responded 200 in 3.0177 ms
+[16:11:17 INF] HTTP OPTIONS /api/RecyclingCompany/all responded 204 in 0.0254 ms
+[16:11:17 INF] HTTP OPTIONS /api/RecyclingCompany/all responded 204 in 0.0257 ms
+[16:11:17 INF] HTTP GET /api/RecyclingCompany/all responded 200 in 9.7453 ms
+[16:11:17 INF] HTTP GET /api/RecyclingCompany/all responded 200 in 8.5966 ms
+[16:11:17 INF] HTTP GET /api/contract/user/ebf1231c-6dda-449a-ba13-9fef0381aa08 responded 404 in 0.2565 ms
+[16:11:17 INF] HTTP GET /api/Contract/GetByUserAndCompany responded 404 in 10.2723 ms
+[16:11:40 INF] HTTP OPTIONS /api/Detection/detectionResult responded 204 in 0.0395 ms
+[16:11:43 INF] HTTP POST /api/Detection/detectionResult responded 200 in 3090.5229 ms
+[16:11:48 INF] HTTP OPTIONS /api/RecyclingTransaction/add responded 204 in 0.0584 ms
+[16:11:48 ERR] HTTP POST /api/RecyclingTransaction/add responded 500 in 60.5593 ms
+System.UnauthorizedAccessException: This contract does not belong to the user
+   at EcoWatchSystem.Services.RecyclingTransactionService.AddRecyclingTransaction(RecyclingTransactionDTO transactionDTO) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Services\RecyclingTransactionService.cs:line 62
+   at EcoWatchSystem.Controllers.RecyclingTransactionController.AddTransaction(RecyclingTransactionDTO dto) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Controllers\RecyclingTransactionController.cs:line 22
+   at lambda_method110(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[16:11:48 ERR] An unhandled exception has occurred while executing the request.
+System.UnauthorizedAccessException: This contract does not belong to the user
+   at EcoWatchSystem.Services.RecyclingTransactionService.AddRecyclingTransaction(RecyclingTransactionDTO transactionDTO) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Services\RecyclingTransactionService.cs:line 62
+   at EcoWatchSystem.Controllers.RecyclingTransactionController.AddTransaction(RecyclingTransactionDTO dto) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Controllers\RecyclingTransactionController.cs:line 22
+   at lambda_method110(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[16:12:06 INF] HTTP OPTIONS /api/RecyclingTransaction/add responded 204 in 0.0864 ms
+[16:12:06 ERR] HTTP POST /api/RecyclingTransaction/add responded 500 in 97.9668 ms
+System.UnauthorizedAccessException: This contract does not belong to the user
+   at EcoWatchSystem.Services.RecyclingTransactionService.AddRecyclingTransaction(RecyclingTransactionDTO transactionDTO) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Services\RecyclingTransactionService.cs:line 62
+   at EcoWatchSystem.Controllers.RecyclingTransactionController.AddTransaction(RecyclingTransactionDTO dto) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Controllers\RecyclingTransactionController.cs:line 22
+   at lambda_method110(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[16:12:06 ERR] An unhandled exception has occurred while executing the request.
+System.UnauthorizedAccessException: This contract does not belong to the user
+   at EcoWatchSystem.Services.RecyclingTransactionService.AddRecyclingTransaction(RecyclingTransactionDTO transactionDTO) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Services\RecyclingTransactionService.cs:line 62
+   at EcoWatchSystem.Controllers.RecyclingTransactionController.AddTransaction(RecyclingTransactionDTO dto) in C:\Users\Baraa\Downloads\EcoWatchbackend_v2\EcoWatchbackend\EcoWatchSystem\Controllers\RecyclingTransactionController.cs:line 22
+   at lambda_method110(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[19:57:04 INF] HTTP GET /Notification responded 101 in 14588782.4947 ms
+[19:57:04 INF] HTTP GET /Notification responded 101 in 14296980.4643 ms
