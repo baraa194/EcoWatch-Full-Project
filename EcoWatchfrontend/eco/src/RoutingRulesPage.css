@@ -1,0 +1,184 @@
+/* 🌿 خلفية ناعمة */
+body {
+  background: #f6f9fc;
+  font-family: "Poppins", sans-serif;
+}
+
+/* 🧭 الحاوية العامة */
+.email-dashboard {
+  width: 90%;
+  max-width: 1400px;
+  margin: 30px auto;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
+}
+
+/* 🌱 العنوان */
+.page-title {
+  font-weight: 700;
+  color: #2e8b8b !important;
+  margin-bottom: 40px;
+  letter-spacing: 0.5px;
+  text-align: center !important;
+  font-size: 2rem;
+}
+
+/* 🧩 الفورم */
+.form-container {
+  background: #f8f9fa;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 60px; /* مسافة بين الفورم والجدول */
+}
+
+.form-title {
+  color: #2e8b8b;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* 🧱 الحقول */
+.form-control, .form-select {
+  border-radius: 10px;
+  border: 1px solid #cfd8dc;
+  padding: 10px 15px;
+  transition: all 0.3s;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: #43a047;
+  box-shadow: 0 0 6px rgba(67, 160, 71, 0.2);
+}
+
+/* ✅ زر الإضافة */
+.btn-success {
+  background: linear-gradient(135deg, #66bb6a, #43a047) !important;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-success:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(76, 175, 80, 0.3);
+}
+
+/* 📋 الجدول */
+.email-table-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: transparent;
+}
+
+.email-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: "Poppins", sans-serif;
+  background: transparent;
+  box-shadow: none;
+  font-size: 0.9rem;
+}
+
+.email-table thead th {
+  background-color: #2e8b8b !important;
+  color: #fff !important;
+  font-weight: 700 !important;
+  font-size: 0.95rem !important;
+  letter-spacing: 0.3px;
+  border-bottom: 2px solid #e5e7eb !important;
+  padding: 14px 16px;
+  text-align: center;
+}
+
+.email-table th,
+.email-table td {
+  vertical-align: middle;
+  padding: 14px 16px;
+  border-bottom: 1px solid #f1f3f5;
+  text-align: center;
+  background-color: transparent;
+}
+
+.email-table tbody tr:nth-child(even) {
+  background-color: rgba(250, 251, 252, 0.5);
+}
+
+.email-table tbody tr:hover {
+  background-color: rgba(234, 243, 255, 0.7);
+  transition: 0.2s ease;
+}
+
+/* 🏷️ البادجز */
+.badge {
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+/* 🎛️ الأزرار */
+.btn-warning {
+  background: linear-gradient(135deg, #ffca28, #fbc02d);
+  border: none;
+  color: #333;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.btn-outline-danger {
+  color: #dc3545;
+  border-color: #dc3545;
+  border-width: 1px;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.25s ease-in-out;
+  padding: 6px 12px;
+  font-size: 0.85rem;
+}
+
+.btn-outline-danger:hover {
+  background: #dc3545;
+  color: white;
+}
+
+.btn-warning:hover,
+.btn-outline-danger:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* 🌀 اللودينج */
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .email-dashboard {
+    width: 95%;
+    padding: 30px 20px;
+    margin: 20px auto;
+  }
+  
+  .form-container {
+    margin-bottom: 40px;
+  }
+  
+  .email-table-container {
+    width: 95%;
+  }
+  
+  .email-table {
+    font-size: 0.8rem;
+  }
+  
+  .email-table th,
+  .email-table td {
+    padding: 10px 8px;
+  }
+}

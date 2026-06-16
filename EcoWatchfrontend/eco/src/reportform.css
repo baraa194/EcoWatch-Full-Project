@@ -1,0 +1,157 @@
+/* ===== الصفحة الرئيسية ===== */
+.container {
+    max-width: 900px !important;
+    margin: 40px auto;
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 45px 55px;
+    box-shadow: 0 8px 35px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 0.4s cubic-bezier(0.25, 0.1, 0.25, 1);
+  }
+  
+  .container:hover {
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.12);
+  }
+  
+  /* ===== العنوان ===== */
+  h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #0f2c2c;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 0.5px;
+  }
+  
+  /* ===== التسميات ===== */
+  .form-label {
+    font-weight: 600;
+    color: #0f2c2c;
+    margin-bottom: 6px;
+  }
+  
+  /* ===== الحقول ===== */
+  .form-control,
+  .form-select,
+  textarea {
+    border: 1.8px solid #d8e4e4;
+    border-radius: 12px;
+    padding: 12px 15px;
+    font-size: 1rem;
+    background-color: #fff;
+    transition: all 0.35s ease;
+  }
+  
+  .form-control:focus,
+  .form-select:focus,
+  textarea:focus {
+    border-color: #2e8b8b;
+    box-shadow: 0 0 0 6px rgba(46, 139, 139, 0.15);
+    background-color: #ffffff;
+    outline: none;
+    transform: scale(1.01);
+  }
+  
+  /* ===== الأزرار العامة ===== */
+  .btn {
+    font-weight: 600;
+    border-radius: 12px;
+    padding: 12px 70px;
+    transition: all 0.4s cubic-bezier(0.25, 0.1, 0.25, 1);
+    cursor: pointer;
+  }
+  
+  /* ===== زرار Submit ===== */
+  .btn-success {
+    background: linear-gradient(135deg, #2e8b8b, #0f2c2c);
+    border: none;
+    color: #ffffff;
+    box-shadow: 0 4px 12px rgba(46, 139, 139, 0.3);
+  }
+  
+  .btn-success:hover {
+    background: linear-gradient(135deg, #0f2c2c, #2e8b8b);
+    transform: translateY(-3px) scale(1.03);
+    box-shadow: 0 8px 20px rgba(46, 139, 139, 0.35);
+  }
+  
+  /* ===== زرار Cancel ===== */
+  .btn-outline-secondary {
+    border: 2px solid #2e8b8b;
+    color: #2e8b8b;
+    background-color: white;
+    margin-left: 10px;
+  }
+  
+  .btn-outline-secondary:hover {
+    background: #2e8b8b;
+    color: #ffffff;
+    transform: translateY(-2px) scale(1.03);
+    box-shadow: 0 6px 14px rgba(46, 139, 139, 0.25);
+  }
+  
+  /* ===== زرار Select from Map ===== */
+  .btn-outline-success {
+    border: 2px solid #2e8b8b;
+    color: #2e8b8b;
+    background: white;
+    border-radius: 10px;
+    font-weight: 600;
+  }
+  
+  .btn-outline-success:hover {
+    background: #2e8b8b;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(46, 139, 139, 0.25);
+  }
+  
+  /* ===== رفع الملفات ===== */
+  input[type="file"] {
+    background-color: #f8fefe;
+    border: 1.8px dashed #b2d9d9;
+    border-radius: 12px;
+    padding: 14px;
+    transition: border-color 0.35s ease;
+  }
+  
+  input[type="file"]:hover {
+    border-color: #2e8b8b;
+  }
+  
+  /* ===== المرفقات ===== */
+  .card {
+    border-radius: 10px;
+    border: 1px solid #e0efef;
+    box-shadow: 0 2px 6px rgba(46, 139, 139, 0.08);
+    transition: all 0.4s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(46, 139, 139, 0.18);
+  }
+  
+  /* ===== الخريطة ===== */
+  .leaflet-container {
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(46, 139, 139, 0.25);
+    transition: all 0.4s ease;
+  }
+  
+  /* ===== التنبيهات ===== */
+  .alert {
+    border-radius: 10px;
+    font-weight: 500;
+  }
+  
+  /* ===== التباعد ===== */
+  .mb-3,
+  .mb-4 {
+    margin-bottom: 1.25rem !important;
+  }
+  
+  .mt-4 {
+    margin-top: 1.75rem !important;
+  }
+  
